@@ -1,0 +1,79 @@
+UID        PID   PPID  LWP   C  NLWP %CPU %MEM VSZ      RSS    TTY    STAT  START   TIME    COMMAND
+root       1     0     1     0  1    0.6  0.1  21760    12508  ?      Ss    10:05   0:00    /sbin/init
+root       2     1     2     0  2    0.0  0.0  3120     1920   ?      Sl    10:05   0:00    /init
+root       2     1     8     0  2    0.0  0.0  3120     1920   ?      Sl    10:05   0:00    /init
+root       6     2     6     0  6    3.0  0.0  4024     2788   ?      Sl    10:05   0:03    plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root       6     2     7     0  6    3.0  0.0  4024     2788   ?      Sl    10:05   0:03    plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root       6     2     9     0  6    3.0  0.0  4024     2788   ?      Sl    10:05   0:03    plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root       6     2     29    0  6    3.0  0.0  4024     2788   ?      Sl    10:05   0:03    plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root       6     2     33    0  6    3.0  0.0  4024     2788   ?      Sl    10:05   0:03    plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root       6     2     1320  0  6    3.0  0.0  4024     2788   ?      Sl    10:05   0:03    plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root       674   1     674   0  1    0.1  0.1  42164    15616  ?      S<s   10:05   0:00    /usr/lib/systemd/systemd-journald
+root       721   1     721   0  1    0.1  0.0  25276    6400   ?      Ss    10:05   0:00    /usr/lib/systemd/systemd-udevd
+systemd+   751   1     751   0  1    0.1  0.1  21460    12544  ?      Ss    10:05   0:00    /usr/lib/systemd/systemd-resolved
+systemd+   756   1     756   0  2    0.0  0.0  91028    7680   ?      Ssl   10:05   0:00    /usr/lib/systemd/systemd-timesyncd
+systemd+   756   1     790   0  2    0.0  0.0  91028    7680   ?      Ssl   10:05   0:00    /usr/lib/systemd/systemd-timesyncd
+root       797   1     797   0  1    0.0  0.0  4236     2432   ?      Ss    10:05   0:00    /usr/sbin/cron -f -P
+message+   798   1     798   0  1    0.0  0.0  9624     4864   ?      Ss    10:05   0:00    @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root       806   1     806   0  1    0.0  0.1  17964    8320   ?      Ss    10:05   0:00    /usr/lib/systemd/systemd-logind
+root       809   1     809   0  8    0.0  0.1  1756620  12800  ?      Ssl   10:05   0:00    /usr/libexec/wsl-pro-service
+root       809   1     847   0  8    0.0  0.1  1756620  12800  ?      Ssl   10:05   0:00    /usr/libexec/wsl-pro-service
+root       809   1     848   0  8    0.0  0.1  1756620  12800  ?      Ssl   10:05   0:00    /usr/libexec/wsl-pro-service
+root       809   1     849   0  8    0.0  0.1  1756620  12800  ?      Ssl   10:05   0:00    /usr/libexec/wsl-pro-service
+root       809   1     850   0  8    0.0  0.1  1756620  12800  ?      Ssl   10:05   0:00    /usr/libexec/wsl-pro-service
+root       809   1     854   0  8    0.0  0.1  1756620  12800  ?      Ssl   10:05   0:00    /usr/libexec/wsl-pro-service
+root       809   1     855   0  8    0.0  0.1  1756620  12800  ?      Ssl   10:05   0:00    /usr/libexec/wsl-pro-service
+root       809   1     856   0  8    0.0  0.1  1756620  12800  ?      Ssl   10:05   0:00    /usr/libexec/wsl-pro-service
+root       814   1     814   0  1    0.1  0.0  3160     1920   hvc0   Ss+   10:05   0:00    /sbin/agetty -o -p -- \u --noclear --keep-baud - 115200,38400,9600 vt220
+syslog     828   1     828   0  4    0.0  0.0  222508   5504   ?      Ssl   10:05   0:00    /usr/sbin/rsyslogd -n -iNONE
+syslog     828   1     851   0  4    0.0  0.0  222508   5504   ?      Ssl   10:05   0:00    /usr/sbin/rsyslogd -n -iNONE
+syslog     828   1     852   0  4    0.0  0.0  222508   5504   ?      Ssl   10:05   0:00    /usr/sbin/rsyslogd -n -iNONE
+syslog     828   1     853   0  4    0.0  0.0  222508   5504   ?      Ssl   10:05   0:00    /usr/sbin/rsyslogd -n -iNONE
+root       835   1     835   0  1    0.0  0.0  3116     1792   tty1   Ss+   10:05   0:00    /sbin/agetty -o -p -- \u --noclear - linux
+root       846   1     846   0  2    0.1  0.2  107028   22400  ?      Ssl   10:05   0:00    /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root       846   1     889   0  2    0.1  0.2  107028   22400  ?      Ssl   10:05   0:00    /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+mysql      872   1     872   0  37   2.0  4.9  2376384  396516 ?      Ssl   10:05   0:01    /usr/sbin/mysqld
+mysql      872   1     908   0  37   2.0  4.9  2376384  396516 ?      Ssl   10:05   0:01    /usr/sbin/mysqld
+mysql      872   1     909   0  37   2.0  4.9  2376384  396516 ?      Ssl   10:05   0:01    /usr/sbin/mysqld
+mysql      872   1     910   0  37   2.0  4.9  2376384  396516 ?      Ssl   10:05   0:01    /usr/sbin/mysqld
+mysql      872   1     911   0  37   2.0  4.9  2376384  396516 ?      Ssl   10:05   0:01    /usr/sbin/mysqld
+mysql      872   1     912   0  37   2.0  4.9  2376384  396516 ?      Ssl   10:05   0:01    /usr/sbin/mysqld
+mysql      872   1     913   0  37   2.0  4.9  2376384  396516 ?      Ssl   10:05   0:01    /usr/sbin/mysqld
+mysql      872   1     914   0  37   2.0  4.9  2376384  396516 ?      Ssl   10:05   0:01    /usr/sbin/mysqld
+mysql      872   1     915   0  37   2.0  4.9  2376384  396516 ?      Ssl   10:05   0:01    /usr/sbin/mysqld
+mysql      872   1     916   0  37   2.0  4.9  2376384  396516 ?      Ssl   10:05   0:01    /usr/sbin/mysqld
+mysql      872   1     917   0  37   2.0  4.9  2376384  396516 ?      Ssl   10:05   0:01    /usr/sbin/mysqld
+mysql      872   1     921   0  37   2.0  4.9  2376384  396516 ?      Ssl   10:05   0:01    /usr/sbin/mysqld
+mysql      872   1     922   0  37   2.0  4.9  2376384  396516 ?      Ssl   10:05   0:01    /usr/sbin/mysqld
+mysql      872   1     923   0  37   2.0  4.9  2376384  396516 ?      Ssl   10:05   0:01    /usr/sbin/mysqld
+mysql      872   1     924   0  37   2.0  4.9  2376384  396516 ?      Ssl   10:05   0:01    /usr/sbin/mysqld
+mysql      872   1     925   0  37   2.0  4.9  2376384  396516 ?      Ssl   10:05   0:01    /usr/sbin/mysqld
+mysql      872   1     926   0  37   2.0  4.9  2376384  396516 ?      Ssl   10:05   0:01    /usr/sbin/mysqld
+mysql      872   1     934   0  37   2.0  4.9  2376384  396516 ?      Ssl   10:05   0:01    /usr/sbin/mysqld
+mysql      872   1     935   0  37   2.0  4.9  2376384  396516 ?      Ssl   10:05   0:01    /usr/sbin/mysqld
+mysql      872   1     936   0  37   2.0  4.9  2376384  396516 ?      Ssl   10:05   0:01    /usr/sbin/mysqld
+mysql      872   1     940   0  37   2.0  4.9  2376384  396516 ?      Ssl   10:05   0:01    /usr/sbin/mysqld
+mysql      872   1     941   0  37   2.0  4.9  2376384  396516 ?      Ssl   10:05   0:01    /usr/sbin/mysqld
+mysql      872   1     942   0  37   2.0  4.9  2376384  396516 ?      Ssl   10:05   0:01    /usr/sbin/mysqld
+mysql      872   1     943   0  37   2.0  4.9  2376384  396516 ?      Ssl   10:05   0:01    /usr/sbin/mysqld
+mysql      872   1     944   0  37   2.0  4.9  2376384  396516 ?      Ssl   10:05   0:01    /usr/sbin/mysqld
+mysql      872   1     945   0  37   2.0  4.9  2376384  396516 ?      Ssl   10:05   0:01    /usr/sbin/mysqld
+mysql      872   1     946   0  37   2.0  4.9  2376384  396516 ?      Ssl   10:05   0:01    /usr/sbin/mysqld
+mysql      872   1     950   0  37   2.0  4.9  2376384  396516 ?      Ssl   10:05   0:01    /usr/sbin/mysqld
+mysql      872   1     951   0  37   2.0  4.9  2376384  396516 ?      Ssl   10:05   0:01    /usr/sbin/mysqld
+mysql      872   1     952   0  37   2.0  4.9  2376384  396516 ?      Ssl   10:05   0:01    /usr/sbin/mysqld
+mysql      872   1     953   0  37   2.0  4.9  2376384  396516 ?      Ssl   10:05   0:01    /usr/sbin/mysqld
+mysql      872   1     954   0  37   2.0  4.9  2376384  396516 ?      Ssl   10:05   0:01    /usr/sbin/mysqld
+mysql      872   1     955   0  37   2.0  4.9  2376384  396516 ?      Ssl   10:05   0:01    /usr/sbin/mysqld
+mysql      872   1     959   0  37   2.0  4.9  2376384  396516 ?      Ssl   10:05   0:01    /usr/sbin/mysqld
+mysql      872   1     960   0  37   2.0  4.9  2376384  396516 ?      Ssl   10:05   0:01    /usr/sbin/mysqld
+mysql      872   1     962   0  37   2.0  4.9  2376384  396516 ?      Ssl   10:05   0:01    /usr/sbin/mysqld
+mysql      872   1     963   0  37   2.0  4.9  2376384  396516 ?      Ssl   10:05   0:01    /usr/sbin/mysqld
+root       995   2     995   0  1    0.0  0.0  6692     4480   pts/1  Ss    10:05   0:00    /bin/login -f
+arpit      1040  1     1040  0  1    0.0  0.1  20308    11264  ?      Ss    10:05   0:00    /usr/lib/systemd/systemd --user
+arpit      1041  1040  1041  0  1    0.0  0.0  21152    3516   ?      S     10:05   0:00    (sd-pam)
+arpit      1065  995   1065  0  1    0.0  0.0  6072     5248   pts/1  S+    10:05   0:00    -bash
+root       2400  2     2400  0  1    0.0  0.0  3136     900    ?      Ss    10:06   0:00    /init
+root       2401  2400  2401  0  1    0.0  0.0  3136     1164   ?      S     10:06   0:00    /init
+arpit      2405  2401  2405  0  1    0.1  0.0  6204     5376   pts/0  Ss    10:06   0:00    -bash
+arpit      2484  2405  2484  0  1    0.0  0.0  6180     1408   pts/0  S+    10:07   0:00    ./AI_main
