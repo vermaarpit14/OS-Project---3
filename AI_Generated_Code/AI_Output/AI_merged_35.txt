@@ -1,0 +1,114 @@
+UID        PID   PPID  LWP   C  NLWP %CPU %MEM VSZ      RSS    TTY    STAT  START   TIME    COMMAND
+root       1     0     1     0  1    0.0  0.1  21732    12360  ?      Ss    13:29   0:00    /sbin/init
+root       2     1     2     0  2    0.0  0.0  3120     1920   ?      Sl    13:29   0:00    /init
+root       2     1     8     0  2    0.0  0.0  3120     1920   ?      Sl    13:29   0:00    /init
+root       6     2     6     0  2    0.0  0.0  3168     1992   ?      Sl    13:29   0:00    plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root       6     2     7     0  2    0.0  0.0  3168     1992   ?      Sl    13:29   0:00    plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root       52    1     52    0  1    0.0  0.1  50416    15496  ?      S<s   13:29   0:00    /usr/lib/systemd/systemd-journald
+root       97    1     97    0  1    0.0  0.0  25532    6656   ?      Ss    13:29   0:00    /usr/lib/systemd/systemd-udevd
+root       112   1     112   0  3    0.0  0.0  152936   1412   ?      Ssl   13:29   0:00    snapfuse /var/lib/snapd/snaps/bare_5.snap /snap/bare/5 -o ro,nodev,allow_other,suid
+root       112   1     114   0  3    0.0  0.0  152936   1412   ?      Ssl   13:29   0:00    snapfuse /var/lib/snapd/snaps/bare_5.snap /snap/bare/5 -o ro,nodev,allow_other,suid
+root       112   1     115   0  3    0.0  0.0  152936   1412   ?      Ssl   13:29   0:00    snapfuse /var/lib/snapd/snaps/bare_5.snap /snap/bare/5 -o ro,nodev,allow_other,suid
+root       116   1     116   0  3    0.0  0.0  153068   1540   ?      Ssl   13:29   0:00    snapfuse /var/lib/snapd/snaps/gedit_697.snap /snap/gedit/697 -o ro,nodev,allow_other,suid
+root       116   1     119   0  3    0.0  0.0  153068   1540   ?      Ssl   13:29   0:00    snapfuse /var/lib/snapd/snaps/gedit_697.snap /snap/gedit/697 -o ro,nodev,allow_other,suid
+root       116   1     122   0  3    0.0  0.0  153068   1540   ?      Ssl   13:29   0:00    snapfuse /var/lib/snapd/snaps/gedit_697.snap /snap/gedit/697 -o ro,nodev,allow_other,suid
+root       117   1     117   0  3    0.0  0.0  153068   1412   ?      Ssl   13:29   0:00    snapfuse /var/lib/snapd/snaps/core24_1349.snap /snap/core24/1349 -o ro,nodev,allow_other,suid
+root       117   1     118   0  3    0.0  0.0  153068   1412   ?      Ssl   13:29   0:00    snapfuse /var/lib/snapd/snaps/core24_1349.snap /snap/core24/1349 -o ro,nodev,allow_other,suid
+root       117   1     120   0  3    0.0  0.0  153068   1412   ?      Ssl   13:29   0:00    snapfuse /var/lib/snapd/snaps/core24_1349.snap /snap/core24/1349 -o ro,nodev,allow_other,suid
+root       124   1     124   0  3    0.0  0.0  153068   1412   ?      Ssl   13:29   0:00    snapfuse /var/lib/snapd/snaps/gnome-46-2404_153.snap /snap/gnome-46-2404/153 -o ro,nodev,allow_other,suid
+root       124   1     125   0  3    0.0  0.0  153068   1412   ?      Ssl   13:29   0:00    snapfuse /var/lib/snapd/snaps/gnome-46-2404_153.snap /snap/gnome-46-2404/153 -o ro,nodev,allow_other,suid
+root       124   1     126   0  3    0.0  0.0  153068   1412   ?      Ssl   13:29   0:00    snapfuse /var/lib/snapd/snaps/gnome-46-2404_153.snap /snap/gnome-46-2404/153 -o ro,nodev,allow_other,suid
+root       130   1     130   0  3    0.0  0.0  153068   1408   ?      Ssl   13:29   0:00    snapfuse /var/lib/snapd/snaps/gtk-common-themes_1535.snap /snap/gtk-common-themes/1535 -o ro,nodev,allow_other,suid
+root       130   1     131   0  3    0.0  0.0  153068   1408   ?      Ssl   13:29   0:00    snapfuse /var/lib/snapd/snaps/gtk-common-themes_1535.snap /snap/gtk-common-themes/1535 -o ro,nodev,allow_other,suid
+root       130   1     132   0  3    0.0  0.0  153068   1408   ?      Ssl   13:29   0:00    snapfuse /var/lib/snapd/snaps/gtk-common-themes_1535.snap /snap/gtk-common-themes/1535 -o ro,nodev,allow_other,suid
+root       134   1     134   0  3    0.0  0.0  153068   1412   ?      Ssl   13:29   0:00    snapfuse /var/lib/snapd/snaps/mesa-2404_1165.snap /snap/mesa-2404/1165 -o ro,nodev,allow_other,suid
+root       134   1     136   0  3    0.0  0.0  153068   1412   ?      Ssl   13:29   0:00    snapfuse /var/lib/snapd/snaps/mesa-2404_1165.snap /snap/mesa-2404/1165 -o ro,nodev,allow_other,suid
+root       134   1     137   0  3    0.0  0.0  153068   1412   ?      Ssl   13:29   0:00    snapfuse /var/lib/snapd/snaps/mesa-2404_1165.snap /snap/mesa-2404/1165 -o ro,nodev,allow_other,suid
+root       138   1     138   0  8    0.3  0.1  526756   12172  ?      Ssl   13:29   0:01    snapfuse /var/lib/snapd/snaps/snapd_25935.snap /snap/snapd/25935 -o ro,nodev,allow_other,suid
+root       138   1     139   0  8    0.3  0.1  526756   12172  ?      Ssl   13:29   0:01    snapfuse /var/lib/snapd/snaps/snapd_25935.snap /snap/snapd/25935 -o ro,nodev,allow_other,suid
+root       138   1     141   0  8    0.3  0.1  526756   12172  ?      Ssl   13:29   0:01    snapfuse /var/lib/snapd/snaps/snapd_25935.snap /snap/snapd/25935 -o ro,nodev,allow_other,suid
+root       138   1     344   0  8    0.3  0.1  526756   12172  ?      Ssl   13:29   0:01    snapfuse /var/lib/snapd/snaps/snapd_25935.snap /snap/snapd/25935 -o ro,nodev,allow_other,suid
+root       138   1     347   0  8    0.3  0.1  526756   12172  ?      Ssl   13:29   0:01    snapfuse /var/lib/snapd/snaps/snapd_25935.snap /snap/snapd/25935 -o ro,nodev,allow_other,suid
+root       138   1     348   0  8    0.3  0.1  526756   12172  ?      Ssl   13:29   0:01    snapfuse /var/lib/snapd/snaps/snapd_25935.snap /snap/snapd/25935 -o ro,nodev,allow_other,suid
+root       138   1     349   0  8    0.3  0.1  526756   12172  ?      Ssl   13:29   0:01    snapfuse /var/lib/snapd/snaps/snapd_25935.snap /snap/snapd/25935 -o ro,nodev,allow_other,suid
+root       138   1     350   0  8    0.3  0.1  526756   12172  ?      Ssl   13:29   0:01    snapfuse /var/lib/snapd/snaps/snapd_25935.snap /snap/snapd/25935 -o ro,nodev,allow_other,suid
+systemd+   172   1     172   0  1    0.0  0.1  21452    12032  ?      Ss    13:29   0:00    /usr/lib/systemd/systemd-resolved
+systemd+   174   1     174   0  2    0.0  0.0  91020    7552   ?      Ssl   13:29   0:00    /usr/lib/systemd/systemd-timesyncd
+systemd+   174   1     221   0  2    0.0  0.0  91020    7552   ?      Ssl   13:29   0:00    /usr/lib/systemd/systemd-timesyncd
+root       232   1     232   0  1    0.0  0.0  4236     2432   ?      Ss    13:29   0:00    /usr/sbin/cron -f -P
+message+   233   1     233   0  1    0.0  0.0  9632     4864   ?      Ss    13:29   0:00    @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root       245   1     245   0  13   0.1  0.4  2145740  37996  ?      Ssl   13:29   0:00    /usr/lib/snapd/snapd
+root       245   1     353   0  13   0.1  0.4  2145740  37996  ?      Ssl   13:29   0:00    /usr/lib/snapd/snapd
+root       245   1     355   0  13   0.1  0.4  2145740  37996  ?      Ssl   13:29   0:00    /usr/lib/snapd/snapd
+root       245   1     356   0  13   0.1  0.4  2145740  37996  ?      Ssl   13:29   0:00    /usr/lib/snapd/snapd
+root       245   1     357   0  13   0.1  0.4  2145740  37996  ?      Ssl   13:29   0:00    /usr/lib/snapd/snapd
+root       245   1     361   0  13   0.1  0.4  2145740  37996  ?      Ssl   13:29   0:00    /usr/lib/snapd/snapd
+root       245   1     375   0  13   0.1  0.4  2145740  37996  ?      Ssl   13:29   0:00    /usr/lib/snapd/snapd
+root       245   1     376   0  13   0.1  0.4  2145740  37996  ?      Ssl   13:29   0:00    /usr/lib/snapd/snapd
+root       245   1     383   0  13   0.1  0.4  2145740  37996  ?      Ssl   13:29   0:00    /usr/lib/snapd/snapd
+root       245   1     384   0  13   0.1  0.4  2145740  37996  ?      Ssl   13:29   0:00    /usr/lib/snapd/snapd
+root       245   1     394   0  13   0.1  0.4  2145740  37996  ?      Ssl   13:29   0:00    /usr/lib/snapd/snapd
+root       245   1     395   0  13   0.1  0.4  2145740  37996  ?      Ssl   13:29   0:00    /usr/lib/snapd/snapd
+root       245   1     613   0  13   0.1  0.4  2145740  37996  ?      Ssl   13:29   0:00    /usr/lib/snapd/snapd
+root       249   1     249   0  1    0.0  0.1  17956    8192   ?      Ss    13:29   0:00    /usr/lib/systemd/systemd-logind
+root       255   1     255   0  8    0.0  0.1  1756096  12160  ?      Ssl   13:29   0:00    /usr/libexec/wsl-pro-service -vv
+root       255   1     310   0  8    0.0  0.1  1756096  12160  ?      Ssl   13:29   0:00    /usr/libexec/wsl-pro-service -vv
+root       255   1     312   0  8    0.0  0.1  1756096  12160  ?      Ssl   13:29   0:00    /usr/libexec/wsl-pro-service -vv
+root       255   1     313   0  8    0.0  0.1  1756096  12160  ?      Ssl   13:29   0:00    /usr/libexec/wsl-pro-service -vv
+root       255   1     314   0  8    0.0  0.1  1756096  12160  ?      Ssl   13:29   0:00    /usr/libexec/wsl-pro-service -vv
+root       255   1     316   0  8    0.0  0.1  1756096  12160  ?      Ssl   13:29   0:00    /usr/libexec/wsl-pro-service -vv
+root       255   1     342   0  8    0.0  0.1  1756096  12160  ?      Ssl   13:29   0:00    /usr/libexec/wsl-pro-service -vv
+root       255   1     343   0  8    0.0  0.1  1756096  12160  ?      Ssl   13:29   0:00    /usr/libexec/wsl-pro-service -vv
+syslog     279   1     279   0  4    0.0  0.0  222508   5376   ?      Ssl   13:29   0:00    /usr/sbin/rsyslogd -n -iNONE
+syslog     279   1     303   0  4    0.0  0.0  222508   5376   ?      Ssl   13:29   0:00    /usr/sbin/rsyslogd -n -iNONE
+syslog     279   1     304   0  4    0.0  0.0  222508   5376   ?      Ssl   13:29   0:00    /usr/sbin/rsyslogd -n -iNONE
+syslog     279   1     305   0  4    0.0  0.0  222508   5376   ?      Ssl   13:29   0:00    /usr/sbin/rsyslogd -n -iNONE
+root       285   1     285   0  1    0.0  0.0  3160     1920   hvc0   Ss+   13:29   0:00    /sbin/agetty -o -p -- \u --noclear --keep-baud - 115200,38400,9600 vt220
+root       289   1     289   0  1    0.0  0.0  3116     1664   tty1   Ss+   13:29   0:00    /sbin/agetty -o -p -- \u --noclear - linux
+root       297   1     297   0  2    0.0  0.3  112792   24448  ?      Ssl   13:29   0:00    /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root       297   1     352   0  2    0.0  0.3  112792   24448  ?      Ssl   13:29   0:00    /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root       442   2     442   0  1    0.0  0.0  3124     768    ?      Ss    13:29   0:00    /init
+root       443   442   443   0  1    0.0  0.0  3140     1152   ?      S     13:29   0:00    /init
+pooja      444   443   444   0  1    0.0  0.0  6072     5248   pts/0  Ss    13:29   0:00    -bash
+root       445   2     445   0  1    0.0  0.0  6692     4096   pts/1  Ss    13:29   0:00    /bin/login -f
+pooja      489   1     489   0  1    0.0  0.1  20376    11264  ?      Ss    13:29   0:00    /usr/lib/systemd/systemd --user
+pooja      490   489   490   0  1    0.0  0.0  21144    3516   ?      S     13:29   0:00    (sd-pam)
+pooja      514   445   514   0  1    0.0  0.0  6072     5120   pts/1  S+    13:29   0:00    -bash
+pooja      621   489   621   0  1    0.0  0.0  9556     4864   ?      Ss    13:30   0:00    /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+pooja      625   489   625   0  5    0.0  0.0  382828   7424   ?      Ssl   13:30   0:00    /usr/libexec/at-spi-bus-launcher
+pooja      625   489   626   0  5    0.0  0.0  382828   7424   ?      Ssl   13:30   0:00    /usr/libexec/at-spi-bus-launcher
+pooja      625   489   627   0  5    0.0  0.0  382828   7424   ?      Ssl   13:30   0:00    /usr/libexec/at-spi-bus-launcher
+pooja      625   489   628   0  5    0.0  0.0  382828   7424   ?      Ssl   13:30   0:00    /usr/libexec/at-spi-bus-launcher
+pooja      625   489   630   0  5    0.0  0.0  382828   7424   ?      Ssl   13:30   0:00    /usr/libexec/at-spi-bus-launcher
+pooja      632   625   632   0  1    0.0  0.0  9288     4864   ?      S     13:30   0:00    /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+pooja      633   489   633   0  5    0.0  0.1  621892   15284  ?      Ssl   13:30   0:00    /usr/libexec/xdg-desktop-portal
+pooja      633   489   634   0  5    0.0  0.1  621892   15284  ?      Ssl   13:30   0:00    /usr/libexec/xdg-desktop-portal
+pooja      633   489   635   0  5    0.0  0.1  621892   15284  ?      Ssl   13:30   0:00    /usr/libexec/xdg-desktop-portal
+pooja      633   489   636   0  5    0.0  0.1  621892   15284  ?      Ssl   13:30   0:00    /usr/libexec/xdg-desktop-portal
+pooja      633   489   665   0  5    0.0  0.1  621892   15284  ?      Ssl   13:30   0:00    /usr/libexec/xdg-desktop-portal
+pooja      638   489   638   0  7    0.0  0.0  605132   6784   ?      Ssl   13:30   0:00    /usr/libexec/xdg-document-portal
+pooja      638   489   639   0  7    0.0  0.0  605132   6784   ?      Ssl   13:30   0:00    /usr/libexec/xdg-document-portal
+pooja      638   489   640   0  7    0.0  0.0  605132   6784   ?      Ssl   13:30   0:00    /usr/libexec/xdg-document-portal
+pooja      638   489   641   0  7    0.0  0.0  605132   6784   ?      Ssl   13:30   0:00    /usr/libexec/xdg-document-portal
+pooja      638   489   648   0  7    0.0  0.0  605132   6784   ?      Ssl   13:30   0:00    /usr/libexec/xdg-document-portal
+pooja      638   489   651   0  7    0.0  0.0  605132   6784   ?      Ssl   13:30   0:00    /usr/libexec/xdg-document-portal
+pooja      638   489   652   0  7    0.0  0.0  605132   6784   ?      Ssl   13:30   0:00    /usr/libexec/xdg-document-portal
+pooja      642   489   642   0  4    0.0  0.0  304148   5632   ?      Ssl   13:30   0:00    /usr/libexec/xdg-permission-store
+pooja      642   489   643   0  4    0.0  0.0  304148   5632   ?      Ssl   13:30   0:00    /usr/libexec/xdg-permission-store
+pooja      642   489   644   0  4    0.0  0.0  304148   5632   ?      Ssl   13:30   0:00    /usr/libexec/xdg-permission-store
+pooja      642   489   646   0  4    0.0  0.0  304148   5632   ?      Ssl   13:30   0:00    /usr/libexec/xdg-permission-store
+root       649   638   649   0  1    0.0  0.0  2704     1920   ?      Ss    13:30   0:00    fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+pooja      653   489   653   0  5    0.0  0.2  405992   20480  ?      Ssl   13:30   0:00    /usr/libexec/xdg-desktop-portal-gtk
+pooja      653   489   654   0  5    0.0  0.2  405992   20480  ?      Ssl   13:30   0:00    /usr/libexec/xdg-desktop-portal-gtk
+pooja      653   489   655   0  5    0.0  0.2  405992   20480  ?      Ssl   13:30   0:00    /usr/libexec/xdg-desktop-portal-gtk
+pooja      653   489   657   0  5    0.0  0.2  405992   20480  ?      Ssl   13:30   0:00    /usr/libexec/xdg-desktop-portal-gtk
+pooja      653   489   658   0  5    0.0  0.2  405992   20480  ?      Ssl   13:30   0:00    /usr/libexec/xdg-desktop-portal-gtk
+pooja      660   489   660   0  4    0.0  0.0  236068   7168   ?      Sl    13:30   0:00    /usr/libexec/at-spi2-registryd --use-gnome-session
+pooja      660   489   661   0  4    0.0  0.0  236068   7168   ?      Sl    13:30   0:00    /usr/libexec/at-spi2-registryd --use-gnome-session
+pooja      660   489   662   0  4    0.0  0.0  236068   7168   ?      Sl    13:30   0:00    /usr/libexec/at-spi2-registryd --use-gnome-session
+pooja      660   489   663   0  4    0.0  0.0  236068   7168   ?      Sl    13:30   0:00    /usr/libexec/at-spi2-registryd --use-gnome-session
+pooja      668   489   668   0  4    0.0  0.0  230108   5376   ?      Ssl   13:30   0:00    /usr/libexec/dconf-service
+pooja      668   489   669   0  4    0.0  0.0  230108   5376   ?      Ssl   13:30   0:00    /usr/libexec/dconf-service
+pooja      668   489   670   0  4    0.0  0.0  230108   5376   ?      Ssl   13:30   0:00    /usr/libexec/dconf-service
+pooja      668   489   671   0  4    0.0  0.0  230108   5376   ?      Ssl   13:30   0:00    /usr/libexec/dconf-service
+pooja      811   444   811   0  1    0.0  0.0  6180     1408   pts/0  S+    13:38   0:00    ./a.out
