@@ -1,0 +1,116 @@
+UID      PID   PPID   LWP C NLWP %CPU %MEM   VSZ    RSS TTY      STAT START   TIME    COMMAND
+root     1     0      1   1 1    1.2  0.1  21664  12112 ?        Ss   08:23   0:00    /sbin/init
+root     2     1      2   0 2    0.0  0.0  3120   1920  ?        Sl   08:23   0:00    /init
+root     2     1      8   0 2    0.0  0.0  3120   1920  ?        Sl   08:23   0:00    /init
+root     6     2      6   0 3    0.0  0.0  3312   1916  ?        Sl   08:23   0:00    plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root     6     2      7   0 3    0.0  0.0  3312   1916  ?        Sl   08:23   0:00    plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root     6     2      589 0 3    0.0  0.0  3312   1916  ?        Sl   08:23   0:00    plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root     42    1      42  0 1    0.3  0.1  42248  15488 ?        S<s  08:23   0:00    /usr/lib/systemd/systemd-journald
+root     92    1      92  0 1    0.3  0.0  25268  6144  ?        Ss   08:23   0:00    /usr/lib/systemd/systemd-udevd
+root     106   92     106 0 1    0.0  0.0  24744  3764  ?        S    08:23   0:00    (udev-worker)
+root     107   92     107 0 1    0.0  0.0  24744  4408  ?        S    08:23   0:00    (udev-worker)
+root     108   92     108 0 1    0.0  0.0  24744  3900  ?        S    08:23   0:00    (udev-worker)
+root     109   92     109 0 1    0.0  0.0  24744  3644  ?        S    08:23   0:00    (udev-worker)
+root     110   92     110 0 1    0.0  0.0  25172  4032  ?        S    08:23   0:00    (udev-worker)
+root     111   92     111 0 1    0.0  0.0  24744  3144  ?        S    08:23   0:00    (udev-worker)
+root     112   92     112 0 1    0.0  0.0  24744  4076  ?        S    08:23   0:00    (udev-worker)
+root     114   92     114 0 1    0.0  0.0  24744  3532  ?        S    08:23   0:00    (udev-worker)
+root     115   92     115 0 1    0.0  0.0  24744  3792  ?        S    08:23   0:00    (udev-worker)
+systemd+ 116   1      116 0 1    0.2  0.1  21456  12416 ?        Ss   08:23   0:00    /usr/lib/systemd/systemd-resolved
+root     117   92     117 0 1    0.1  0.0  24744  3556  ?        S    08:23   0:00    (udev-worker)
+root     118   92     118 0 1    0.0  0.0  24744  3928  ?        S    08:23   0:00    (udev-worker)
+root     119   92     119 0 1    0.0  0.0  24744  3708  ?        S    08:23   0:00    (udev-worker)
+root     120   92     120 0 1    0.0  0.0  24744  3968  ?        S    08:23   0:00    (udev-worker)
+root     121   92     121 0 1    0.0  0.0  24744  3716  ?        S    08:23   0:00    (udev-worker)
+root     122   92     122 0 1    0.3  0.0  24744  3720  ?        S    08:23   0:00    (udev-worker)
+systemd+ 123   1      123 0 2    0.1  0.0  91024  7296  ?        Ssl  08:23   0:00    /usr/lib/systemd/systemd-timesyncd
+systemd+ 123   1      166 0 2    0.1  0.0  91024  7296  ?        Ssl  08:23   0:00    /usr/lib/systemd/systemd-timesyncd
+root     124   92     124 0 1    0.0  0.0  24744  3728  ?        S    08:23   0:00    (udev-worker)
+root     125   92     125 0 1    0.0  0.0  24872  3880  ?        S    08:23   0:00    (udev-worker)
+root     126   92     126 0 1    0.0  0.0  24872  3880  ?        S    08:23   0:00    (udev-worker)
+root     128   92     128 0 1    0.0  0.0  24872  3120  ?        S    08:23   0:00    (udev-worker)
+root     129   92     129 0 1    0.0  0.0  24872  4652  ?        S    08:23   0:00    (udev-worker)
+root     130   92     130 0 1    0.0  0.0  24876  3124  ?        S    08:23   0:00    (udev-worker)
+root     131   92     131 0 1    0.0  0.0  24876  4024  ?        S    08:23   0:00    (udev-worker)
+root     133   92     133 0 1    0.0  0.0  24876  3260  ?        S    08:23   0:00    (udev-worker)
+root     134   92     134 0 1    0.0  0.0  24876  4028  ?        S    08:23   0:00    (udev-worker)
+root     135   92     135 0 1    0.0  0.0  24876  3388  ?        S    08:23   0:00    (udev-worker)
+root     136   92     136 0 1    0.0  0.0  24876  4032  ?        S    08:23   0:00    (udev-worker)
+root     137   92     137 0 1    0.0  0.0  24876  3648  ?        S    08:23   0:00    (udev-worker)
+root     139   92     139 0 1    0.0  0.0  24876  3524  ?        S    08:23   0:00    (udev-worker)
+root     140   92     140 0 1    0.0  0.0  24876  3908  ?        S    08:23   0:00    (udev-worker)
+root     141   92     141 0 1    0.0  0.0  24876  3908  ?        S    08:23   0:00    (udev-worker)
+root     143   92     143 0 1    0.0  0.0  24876  3652  ?        S    08:23   0:00    (udev-worker)
+root     145   92     145 0 1    0.0  0.0  24876  3908  ?        S    08:23   0:00    (udev-worker)
+root     146   92     146 0 1    0.0  0.0  24876  3140  ?        S    08:23   0:00    (udev-worker)
+root     147   92     147 0 1    0.0  0.0  24876  3908  ?        S    08:23   0:00    (udev-worker)
+root     148   92     148 0 1    0.0  0.0  24876  3396  ?        S    08:23   0:00    (udev-worker)
+root     149   92     149 0 1    0.1  0.0  24876  4312  ?        S    08:23   0:00    (udev-worker)
+root     150   92     150 0 1    0.0  0.0  24876  3912  ?        S    08:23   0:00    (udev-worker)
+root     151   92     151 0 1    0.0  0.0  24876  3528  ?        S    08:23   0:00    (udev-worker)
+root     152   92     152 0 1    0.0  0.0  24876  3660  ?        S    08:23   0:00    (udev-worker)
+root     153   92     153 0 1    0.7  0.0  24876  3788  ?        S    08:23   0:00    (udev-worker)
+root     171   1      171 0 1    0.0  0.0  4236   2432  ?        Ss   08:23   0:00    /usr/sbin/cron -f -P
+message+ 172   1      172 0 1    0.0  0.0  9584   4736  ?        Ss   08:23   0:00    @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root     185   1      185 0 1    0.2  0.1  17968  8192  ?        Ss   08:23   0:00    /usr/lib/systemd/systemd-logind
+root     187   1      187 0 8    0.2  0.1  1756096 11904 ?        Ssl  08:23   0:00    /usr/libexec/wsl-pro-service -vv
+root     187   1      219 0 8    0.2  0.1  1756096 11904 ?        Ssl  08:23   0:00    /usr/libexec/wsl-pro-service -vv
+root     187   1      220 0 8    0.2  0.1  1756096 11904 ?        Ssl  08:23   0:00    /usr/libexec/wsl-pro-service -vv
+root     187   1      221 0 8    0.2  0.1  1756096 11904 ?        Ssl  08:23   0:00    /usr/libexec/wsl-pro-service -vv
+root     187   1      222 0 8    0.2  0.1  1756096 11904 ?        Ssl  08:23   0:00    /usr/libexec/wsl-pro-service -vv
+root     187   1      223 0 8    0.2  0.1  1756096 11904 ?        Ssl  08:23   0:00    /usr/libexec/wsl-pro-service -vv
+root     187   1      224 0 8    0.2  0.1  1756096 11904 ?        Ssl  08:23   0:00    /usr/libexec/wsl-pro-service -vv
+root     187   1      225 0 8    0.2  0.1  1756096 11904 ?        Ssl  08:23   0:00    /usr/libexec/wsl-pro-service -vv
+root     201   1      201 0 1    0.0  0.0  3160   1920  hvc0     Ss+  08:23   0:00    /sbin/agetty -o -p -- \u --noclear --keep-baud - 115200,38400,9600 vt220
+root     208   1      208 0 1    0.0  0.0  3116   1792  tty1     Ss+  08:23   0:00    /sbin/agetty -o -p -- \u --noclear - linux
+syslog   209   1      209 0 4    0.1  0.0  222508 5248  ?        Ssl  08:23   0:00    /usr/sbin/rsyslogd -n -iNONE
+syslog   209   1      231 0 4    0.1  0.0  222508 5248  ?        Ssl  08:23   0:00    /usr/sbin/rsyslogd -n -iNONE
+syslog   209   1      232 0 4    0.1  0.0  222508 5248  ?        Ssl  08:23   0:00    /usr/sbin/rsyslogd -n -iNONE
+syslog   209   1      233 0 4    0.1  0.0  222508 5248  ?        Ssl  08:23   0:00    /usr/sbin/rsyslogd -n -iNONE
+root     236   1      236 0 2    0.3  0.3  112812 24052 ?        Ssl  08:23   0:00    /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root     236   1      270 0 2    0.3  0.3  112812 24052 ?        Ssl  08:23   0:00    /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root     310   2      310 0 1    0.0  0.0  3124   896   ?        Ss   08:23   0:00    /init
+root     311   310    311 0 1    0.0  0.0  3140   1156  ?        S    08:23   0:00    /init
+anjali_+ 312   311    312 0 1    0.0  0.0  6072   4992  pts/0    Ss   08:23   0:00    -bash
+root     313   2      313 0 1    0.0  0.0  6692   4352  pts/1    Ss   08:23   0:00    /bin/login -f
+anjali_+ 359   1      359 0 1    0.2  0.1  20308  11136 ?        Ss   08:23   0:00    /usr/lib/systemd/systemd --user
+anjali_+ 360   359    360 0 1    0.0  0.0  21152  3516  ?        S    08:23   0:00    (sd-pam)
+anjali_+ 384   313    384 0 1    0.0  0.0  6072   4992  pts/1    S+   08:23   0:00    -bash
+anjali_+ 507   359    507 0 1    0.0  0.0  9424   4992  ?        Ss   08:23   0:00    /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+anjali_+ 511   359    511 0 5    0.0  0.0  382828 7552  ?        Ssl  08:23   0:00    /usr/libexec/at-spi-bus-launcher
+anjali_+ 511   359    512 0 5    0.0  0.0  382828 7552  ?        Ssl  08:23   0:00    /usr/libexec/at-spi-bus-launcher
+anjali_+ 511   359    513 0 5    0.0  0.0  382828 7552  ?        Ssl  08:23   0:00    /usr/libexec/at-spi-bus-launcher
+anjali_+ 511   359    514 0 5    0.0  0.0  382828 7552  ?        Ssl  08:23   0:00    /usr/libexec/at-spi-bus-launcher
+anjali_+ 511   359    516 0 5    0.0  0.0  382828 7552  ?        Ssl  08:23   0:00    /usr/libexec/at-spi-bus-launcher
+anjali_+ 518   511    518 0 1    0.0  0.0  9292   4864  ?        S    08:23   0:00    /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+anjali_+ 519   359    519 0 5    0.0  0.1  621900 15480 ?        Ssl  08:23   0:00    /usr/libexec/xdg-desktop-portal
+anjali_+ 519   359    520 0 5    0.0  0.1  621900 15480 ?        Ssl  08:23   0:00    /usr/libexec/xdg-desktop-portal
+anjali_+ 519   359    521 0 5    0.0  0.1  621900 15480 ?        Ssl  08:23   0:00    /usr/libexec/xdg-desktop-portal
+anjali_+ 519   359    522 0 5    0.0  0.1  621900 15480 ?        Ssl  08:23   0:00    /usr/libexec/xdg-desktop-portal
+anjali_+ 519   359    550 0 5    0.0  0.1  621900 15480 ?        Ssl  08:23   0:00    /usr/libexec/xdg-desktop-portal
+anjali_+ 524   359    524 0 7    0.0  0.0  605132 6912  ?        Ssl  08:23   0:00    /usr/libexec/xdg-document-portal
+anjali_+ 524   359    525 0 7    0.0  0.0  605132 6912  ?        Ssl  08:23   0:00    /usr/libexec/xdg-document-portal
+anjali_+ 524   359    526 0 7    0.0  0.0  605132 6912  ?        Ssl  08:23   0:00    /usr/libexec/xdg-document-portal
+anjali_+ 524   359    527 0 7    0.0  0.0  605132 6912  ?        Ssl  08:23   0:00    /usr/libexec/xdg-document-portal
+anjali_+ 524   359    534 0 7    0.0  0.0  605132 6912  ?        Ssl  08:23   0:00    /usr/libexec/xdg-document-portal
+anjali_+ 524   359    536 0 7    0.0  0.0  605132 6912  ?        Ssl  08:23   0:00    /usr/libexec/xdg-document-portal
+anjali_+ 524   359    537 0 7    0.0  0.0  605132 6912  ?        Ssl  08:23   0:00    /usr/libexec/xdg-document-portal
+anjali_+ 528   359    528 0 4    0.0  0.0  304148 5632  ?        Ssl  08:23   0:00    /usr/libexec/xdg-permission-store
+anjali_+ 528   359    529 0 4    0.0  0.0  304148 5632  ?        Ssl  08:23   0:00    /usr/libexec/xdg-permission-store
+anjali_+ 528   359    530 0 4    0.0  0.0  304148 5632  ?        Ssl  08:23   0:00    /usr/libexec/xdg-permission-store
+anjali_+ 528   359    532 0 4    0.0  0.0  304148 5632  ?        Ssl  08:23   0:00    /usr/libexec/xdg-permission-store
+root     535   524    535 0 1    0.0  0.0  2704   1920  ?        Ss   08:23   0:00    fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+anjali_+ 538   359    538 0 5    0.1  0.2  405980 20608 ?        Ssl  08:23   0:00    /usr/libexec/xdg-desktop-portal-gtk
+anjali_+ 538   359    539 0 5    0.1  0.2  405980 20608 ?        Ssl  08:23   0:00    /usr/libexec/xdg-desktop-portal-gtk
+anjali_+ 538   359    540 0 5    0.1  0.2  405980 20608 ?        Ssl  08:23   0:00    /usr/libexec/xdg-desktop-portal-gtk
+anjali_+ 538   359    542 0 5    0.1  0.2  405980 20608 ?        Ssl  08:23   0:00    /usr/libexec/xdg-desktop-portal-gtk
+anjali_+ 538   359    543 0 5    0.1  0.2  405980 20608 ?        Ssl  08:23   0:00    /usr/libexec/xdg-desktop-portal-gtk
+anjali_+ 545   359    545 0 4    0.0  0.0  236068 7552  ?        Sl   08:23   0:00    /usr/libexec/at-spi2-registryd --use-gnome-session
+anjali_+ 545   359    546 0 4    0.0  0.0  236068 7552  ?        Sl   08:23   0:00    /usr/libexec/at-spi2-registryd --use-gnome-session
+anjali_+ 545   359    547 0 4    0.0  0.0  236068 7552  ?        Sl   08:23   0:00    /usr/libexec/at-spi2-registryd --use-gnome-session
+anjali_+ 545   359    548 0 4    0.0  0.0  236068 7552  ?        Sl   08:23   0:00    /usr/libexec/at-spi2-registryd --use-gnome-session
+anjali_+ 553   359    553 0 4    0.0  0.0  230108 5504  ?        Ssl  08:23   0:00    /usr/libexec/dconf-service
+anjali_+ 553   359    554 0 4    0.0  0.0  230108 5504  ?        Ssl  08:23   0:00    /usr/libexec/dconf-service
+anjali_+ 553   359    555 0 4    0.0  0.0  230108 5504  ?        Ssl  08:23   0:00    /usr/libexec/dconf-service
+anjali_+ 553   359    556 0 4    0.0  0.0  230108 5504  ?        Ssl  08:23   0:00    /usr/libexec/dconf-service
+anjali_+ 593   312    593 0 1    0.0  0.0  6180   1408  pts/0    S+   08:24   0:00    ./a.out
