@@ -1,0 +1,943 @@
+UID      PID   PPID   LWP C NLWP %CPU %MEM   VSZ    RSS TTY      STAT START   TIME    COMMAND
+root     1     0      1   0 1    0.6  0.2  23356  14692 ?        Ss   20:43   0:02    /sbin/init splash
+root     2     0      2   0 1    0.0  0.0  0      0     ?        S    20:43   0:00    [kthreadd]
+root     3     2      3   0 1    0.0  0.0  0      0     ?        S    20:43   0:00    [pool_workqueue_release]
+root     4     2      4   0 1    0.0  0.0  0      0     ?        I<   20:43   0:00    [kworker/R-rcu_gp]
+root     5     2      5   0 1    0.0  0.0  0      0     ?        I<   20:43   0:00    [kworker/R-sync_wq]
+root     6     2      6   0 1    0.0  0.0  0      0     ?        I<   20:43   0:00    [kworker/R-kvfree_rcu_reclaim]
+root     7     2      7   0 1    0.0  0.0  0      0     ?        I<   20:43   0:00    [kworker/R-slub_flushwq]
+root     8     2      8   0 1    0.0  0.0  0      0     ?        I<   20:43   0:00    [kworker/R-netns]
+root     10    2      10  0 1    0.0  0.0  0      0     ?        I    20:43   0:00    [kworker/0:1-events]
+root     11    2      11  0 1    0.0  0.0  0      0     ?        I<   20:43   0:00    [kworker/0:0H-events_highpri]
+root     12    2      12  0 1    0.0  0.0  0      0     ?        I    20:43   0:00    [kworker/u20:0-ipv6_addrconf]
+root     13    2      13  0 1    0.0  0.0  0      0     ?        I<   20:43   0:00    [kworker/R-mm_percpu_wq]
+root     14    2      14  0 1    0.5  0.0  0      0     ?        S    20:43   0:01    [ksoftirqd/0]
+root     15    2      15  0 1    0.5  0.0  0      0     ?        R    20:43   0:02    [rcu_preempt]
+root     16    2      16  0 1    0.0  0.0  0      0     ?        S    20:43   0:00    [rcu_exp_par_gp_kthread_worker/0]
+root     17    2      17  0 1    0.0  0.0  0      0     ?        S    20:43   0:00    [rcu_exp_gp_kthread_worker]
+root     18    2      18  0 1    0.0  0.0  0      0     ?        S    20:43   0:00    [migration/0]
+root     19    2      19  0 1    0.0  0.0  0      0     ?        S    20:43   0:00    [idle_inject/0]
+root     20    2      20  0 1    0.0  0.0  0      0     ?        S    20:43   0:00    [cpuhp/0]
+root     21    2      21  0 1    0.0  0.0  0      0     ?        S    20:43   0:00    [cpuhp/1]
+root     22    2      22  0 1    0.0  0.0  0      0     ?        S    20:43   0:00    [idle_inject/1]
+root     23    2      23  0 1    0.1  0.0  0      0     ?        S    20:43   0:00    [migration/1]
+root     24    2      24  0 1    0.1  0.0  0      0     ?        R    20:43   0:00    [ksoftirqd/1]
+root     27    2      27  0 1    0.0  0.0  0      0     ?        S    20:43   0:00    [cpuhp/2]
+root     28    2      28  0 1    0.0  0.0  0      0     ?        S    20:43   0:00    [idle_inject/2]
+root     29    2      29  0 1    0.1  0.0  0      0     ?        S    20:43   0:00    [migration/2]
+root     30    2      30  0 1    0.0  0.0  0      0     ?        S    20:43   0:00    [ksoftirqd/2]
+root     31    2      31  0 1    0.0  0.0  0      0     ?        I    20:43   0:00    [kworker/2:0-cgroup_free]
+root     32    2      32  0 1    0.0  0.0  0      0     ?        I<   20:43   0:00    [kworker/2:0H-kblockd]
+root     33    2      33  0 1    0.0  0.0  0      0     ?        S    20:43   0:00    [cpuhp/3]
+root     34    2      34  0 1    0.0  0.0  0      0     ?        S    20:43   0:00    [idle_inject/3]
+root     35    2      35  0 1    0.1  0.0  0      0     ?        S    20:43   0:00    [migration/3]
+root     36    2      36  0 1    0.0  0.0  0      0     ?        S    20:43   0:00    [ksoftirqd/3]
+root     38    2      38  0 1    0.0  0.0  0      0     ?        I<   20:43   0:00    [kworker/3:0H-events_highpri]
+root     39    2      39  0 1    0.0  0.0  0      0     ?        S    20:43   0:00    [cpuhp/4]
+root     40    2      40  0 1    0.0  0.0  0      0     ?        S    20:43   0:00    [idle_inject/4]
+root     41    2      41  0 1    0.1  0.0  0      0     ?        S    20:43   0:00    [migration/4]
+root     42    2      42  0 1    0.0  0.0  0      0     ?        S    20:43   0:00    [ksoftirqd/4]
+root     44    2      44  0 1    0.0  0.0  0      0     ?        I<   20:43   0:00    [kworker/4:0H-events_highpri]
+root     46    2      46  0 1    0.1  0.0  0      0     ?        D    20:43   0:00    [kworker/u22:0+flush-8:0]
+root     47    2      47  0 1    0.0  0.0  0      0     ?        I    20:43   0:00    [kworker/u23:0-events_power_efficient]
+root     49    2      49  0 1    0.0  0.0  0      0     ?        I    20:43   0:00    [kworker/u25:0-events_unbound]
+root     50    2      50  0 1    0.0  0.0  0      0     ?        S    20:43   0:00    [kdevtmpfs]
+root     51    2      51  0 1    0.0  0.0  0      0     ?        I<   20:43   0:00    [kworker/R-inet_frag_wq]
+root     52    2      52  0 1    0.0  0.0  0      0     ?        I    20:43   0:00    [rcu_tasks_kthread]
+root     53    2      53  0 1    0.0  0.0  0      0     ?        I    20:43   0:00    [rcu_tasks_rude_kthread]
+root     54    2      54  0 1    0.0  0.0  0      0     ?        I    20:43   0:00    [rcu_tasks_trace_kthread]
+root     55    2      55  0 1    0.0  0.0  0      0     ?        S    20:43   0:00    [kauditd]
+root     56    2      56  0 1    0.0  0.0  0      0     ?        S    20:43   0:00    [khungtaskd]
+root     57    2      57  0 1    0.0  0.0  0      0     ?        S    20:43   0:00    [oom_reaper]
+root     58    2      58  0 1    0.1  0.0  0      0     ?        I    20:43   0:00    [kworker/u21:1-flush-8:0]
+root     59    2      59  0 1    0.0  0.0  0      0     ?        I<   20:43   0:00    [kworker/R-writeback]
+root     60    2      60  0 1    0.1  0.0  0      0     ?        I    20:43   0:00    [kworker/u21:2-events_unbound]
+root     61    2      61  0 1    0.0  0.0  0      0     ?        S    20:43   0:00    [kcompactd0]
+root     62    2      62  0 1    0.0  0.0  0      0     ?        SN   20:43   0:00    [ksmd]
+root     63    2      63  0 1    0.0  0.0  0      0     ?        SN   20:43   0:00    [khugepaged]
+root     64    2      64  0 1    0.0  0.0  0      0     ?        I<   20:43   0:00    [kworker/R-kblockd]
+root     65    2      65  0 1    0.0  0.0  0      0     ?        I<   20:43   0:00    [kworker/R-blkcg_punt_bio]
+root     66    2      66  0 1    0.0  0.0  0      0     ?        I<   20:43   0:00    [kworker/R-kintegrityd]
+root     67    2      67  0 1    0.0  0.0  0      0     ?        S    20:43   0:00    [irq/9-acpi]
+root     69    2      69  0 1    0.0  0.0  0      0     ?        I    20:43   0:00    [kworker/2:1-mm_percpu_wq]
+root     70    2      70  0 1    0.0  0.0  0      0     ?        I<   20:43   0:00    [kworker/R-tpm_dev_wq]
+root     71    2      71  0 1    0.0  0.0  0      0     ?        I<   20:43   0:00    [kworker/R-ata_sff]
+root     72    2      72  0 1    0.0  0.0  0      0     ?        I<   20:43   0:00    [kworker/R-md]
+root     73    2      73  0 1    0.0  0.0  0      0     ?        I<   20:43   0:00    [kworker/R-md_bitmap]
+root     74    2      74  0 1    0.0  0.0  0      0     ?        I<   20:43   0:00    [kworker/R-edac-poller]
+root     75    2      75  0 1    0.0  0.0  0      0     ?        I<   20:43   0:00    [kworker/R-devfreq_wq]
+root     76    2      76  0 1    0.0  0.0  0      0     ?        S    20:43   0:00    [watchdogd]
+root     77    2      77  0 1    0.0  0.0  0      0     ?        I    20:43   0:00    [kworker/u24:1-flush-8:0]
+root     78    2      78  0 1    0.0  0.0  0      0     ?        I<   20:43   0:00    [kworker/R-quota_events_unbound]
+root     80    2      80  0 1    0.0  0.0  0      0     ?        S    20:43   0:00    [kswapd0]
+root     81    2      81  0 1    0.0  0.0  0      0     ?        S    20:43   0:00    [ecryptfs-kthread]
+root     82    2      82  0 1    0.0  0.0  0      0     ?        I<   20:43   0:00    [kworker/R-kthrotld]
+root     83    2      83  0 1    0.0  0.0  0      0     ?        I<   20:43   0:00    [kworker/R-acpi_thermal_pm]
+root     85    2      85  0 1    0.0  0.0  0      0     ?        S    20:43   0:00    [scsi_eh_0]
+root     87    2      87  0 1    0.0  0.0  0      0     ?        I<   20:43   0:00    [kworker/R-scsi_tmf_0]
+root     88    2      88  0 1    0.0  0.0  0      0     ?        I    20:43   0:00    [kworker/4:1-mm_percpu_wq]
+root     89    2      89  0 1    0.0  0.0  0      0     ?        S    20:43   0:00    [scsi_eh_1]
+root     90    2      90  0 1    0.0  0.0  0      0     ?        I<   20:43   0:00    [kworker/R-scsi_tmf_1]
+root     91    2      91  0 1    0.2  0.0  0      0     ?        I    20:43   0:00    [kworker/u23:2-kvfree_rcu_reclaim]
+root     93    2      93  0 1    0.0  0.0  0      0     ?        I    20:43   0:00    [kworker/u23:4-events_unbound]
+root     94    2      94  0 1    0.0  0.0  0      0     ?        I<   20:43   0:00    [kworker/R-mld]
+root     95    2      95  0 1    0.0  0.0  0      0     ?        I<   20:43   0:00    [kworker/R-ipv6_addrconf]
+root     96    2      96  0 1    0.0  0.0  0      0     ?        I<   20:43   0:00    [kworker/0:1H-kblockd]
+root     97    2      97  0 1    0.0  0.0  0      0     ?        I    20:43   0:00    [kworker/u20:1-ipv6_addrconf]
+root     98    2      98  0 1    0.0  0.0  0      0     ?        I    20:43   0:00    [kworker/1:1-mm_percpu_wq]
+root     99    2      99  0 1    0.0  0.0  0      0     ?        I<   20:43   0:00    [kworker/R-kstrp]
+root     101   2      101 0 1    0.0  0.0  0      0     ?        I<   20:43   0:00    [kworker/u26:0]
+root     102   2      102 0 1    0.0  0.0  0      0     ?        I<   20:43   0:00    [kworker/u27:0-ttm]
+root     103   2      103 0 1    0.0  0.0  0      0     ?        I<   20:43   0:00    [kworker/u28:0]
+root     104   2      104 0 1    0.0  0.0  0      0     ?        I<   20:43   0:00    [kworker/u29:0-ttm]
+root     105   2      105 0 1    0.0  0.0  0      0     ?        I<   20:43   0:00    [kworker/u30:0-ttm]
+root     106   2      106 0 1    0.0  0.0  0      0     ?        I<   20:43   0:00    [kworker/u31:0]
+root     110   2      110 0 1    0.0  0.0  0      0     ?        I    20:43   0:00    [kworker/u22:1-flush-8:0]
+root     119   2      119 0 1    0.0  0.0  0      0     ?        I<   20:43   0:00    [kworker/R-charger_manager]
+root     120   2      120 0 1    0.0  0.0  0      0     ?        I    20:43   0:00    [kworker/0:2-cgroup_free]
+root     144   2      144 0 1    0.1  0.0  0      0     ?        I<   20:43   0:00    [kworker/1:1H-kblockd]
+root     147   2      147 0 1    0.0  0.0  0      0     ?        I<   20:43   0:00    [kworker/4:1H-kblockd]
+root     149   2      149 0 1    0.0  0.0  0      0     ?        I<   20:43   0:00    [kworker/2:1H-kblockd]
+root     179   2      179 0 1    0.0  0.0  0      0     ?        S    20:43   0:00    [scsi_eh_2]
+root     180   2      180 0 1    0.0  0.0  0      0     ?        I<   20:43   0:00    [kworker/R-scsi_tmf_2]
+root     190   2      190 0 1    0.0  0.0  0      0     ?        I    20:43   0:00    [kworker/3:2-mm_percpu_wq]
+root     233   2      233 0 1    0.1  0.0  0      0     ?        S    20:43   0:00    [jbd2/sda2-8]
+root     234   2      234 0 1    0.0  0.0  0      0     ?        I<   20:43   0:00    [kworker/R-ext4-rsv-conversion]
+root     282   1      282 0 1    0.2  0.3  67280  18912 ?        R<s  20:43   0:00    /usr/lib/systemd/systemd-journald
+root     327   2      327 0 1    0.2  0.0  0      0     ?        I    20:43   0:00    [kworker/1:2-mm_percpu_wq]
+root     330   2      330 0 1    0.0  0.0  0      0     ?        I    20:43   0:00    [kworker/4:2-cgroup_free]
+root     339   2      339 0 1    0.0  0.0  0      0     ?        I    20:43   0:00    [kworker/3:3-mm_percpu_wq]
+root     363   1      363 0 1    0.1  0.1  30696  8844  ?        Ss   20:43   0:00    /usr/lib/systemd/systemd-udevd
+root     364   2      364 0 1    0.0  0.0  0      0     ?        I    20:43   0:00    [kworker/u25:2-events_unbound]
+root     505   2      505 0 1    0.0  0.0  0      0     ?        S    20:43   0:00    [psimon]
+systemd+ 521   1      521 0 1    0.0  0.1  17572  7768  ?        Ss   20:43   0:00    /usr/lib/systemd/systemd-oomd
+systemd+ 525   1      525 0 1    0.1  0.2  21864  14104 ?        Ss   20:43   0:00    /usr/lib/systemd/systemd-resolved
+root     563   2      563 0 1    0.1  0.0  0      0     ?        I    20:43   0:00    [kworker/u25:3-kvfree_rcu_reclaim]
+root     599   2      599 0 1    0.0  0.0  0      0     ?        S    20:43   0:00    [irq/18-vmwgfx]
+root     600   2      600 0 1    0.0  0.0  0      0     ?        I<   20:43   0:00    [kworker/R-ttm]
+root     642   2      642 0 1    0.0  0.0  0      0     ?        I    20:43   0:00    [kworker/u21:3-loop12]
+root     643   2      643 0 1    0.1  0.0  0      0     ?        I    20:43   0:00    [kworker/u24:4-events_unbound]
+root     644   2      644 0 1    0.1  0.0  0      0     ?        I    20:43   0:00    [kworker/u24:5-events_unbound]
+root     647   2      647 0 1    0.0  0.0  0      0     ?        I    20:43   0:00    [kworker/u22:3-flush-8:0]
+root     649   2      649 0 1    0.0  0.0  0      0     ?        I    20:43   0:00    [kworker/u22:4-flush-8:0]
+root     652   2      652 0 1    0.0  0.0  0      0     ?        I    20:43   0:00    [kworker/u22:5-kvfree_rcu_reclaim]
+root     653   2      653 0 1    0.0  0.0  0      0     ?        I    20:43   0:00    [kworker/u21:5-events_power_efficient]
+avahi    670   1      670 0 1    0.0  0.0  8676   4772  ?        Ss   20:43   0:00    avahi-daemon: running [Ubuntu.local]
+message+ 672   1      672 0 1    0.3  0.1  12164  7392  ?        Ss   20:43   0:01    @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+gnome-r+ 680   1      680 0 4    0.0  0.2  512820 16792 ?        Ssl  20:43   0:00    /usr/libexec/gnome-remote-desktop-daemon --system
+gnome-r+ 680   1      892 0 4    0.0  0.2  512820 16792 ?        Ssl  20:43   0:00    /usr/libexec/gnome-remote-desktop-daemon --system
+gnome-r+ 680   1      896 0 4    0.0  0.2  512820 16792 ?        Ssl  20:43   0:00    /usr/libexec/gnome-remote-desktop-daemon --system
+gnome-r+ 680   1      908 0 4    0.0  0.2  512820 16792 ?        Ssl  20:43   0:00    /usr/libexec/gnome-remote-desktop-daemon --system
+polkitd  692   1      692 0 4    0.2  0.2  317040 12556 ?        Ssl  20:43   0:01    /usr/lib/polkit-1/polkitd --no-debug
+polkitd  692   1      843 0 4    0.2  0.2  317040 12556 ?        Ssl  20:43   0:01    /usr/lib/polkit-1/polkitd --no-debug
+polkitd  692   1      845 0 4    0.2  0.2  317040 12556 ?        Ssl  20:43   0:01    /usr/lib/polkit-1/polkitd --no-debug
+polkitd  692   1      847 0 4    0.2  0.2  317040 12556 ?        Ssl  20:43   0:01    /usr/lib/polkit-1/polkitd --no-debug
+root     693   1      693 0 4    0.0  0.1  313384 7792  ?        Ssl  20:43   0:00    /usr/libexec/power-profiles-daemon
+root     693   1      745 0 4    0.0  0.1  313384 7792  ?        Ssl  20:43   0:00    /usr/libexec/power-profiles-daemon
+root     693   1      746 0 4    0.0  0.1  313384 7792  ?        Ssl  20:43   0:00    /usr/libexec/power-profiles-daemon
+root     693   1      747 0 4    0.0  0.1  313384 7792  ?        Ssl  20:43   0:00    /usr/libexec/power-profiles-daemon
+root     701   1      701 0 11   0.3  0.6  1997208 39992 ?        Ssl  20:43   0:01    /usr/lib/snapd/snapd
+root     701   1      781 0 11   0.3  0.6  1997208 39992 ?        Ssl  20:43   0:01    /usr/lib/snapd/snapd
+root     701   1      782 0 11   0.3  0.6  1997208 39992 ?        Ssl  20:43   0:01    /usr/lib/snapd/snapd
+root     701   1      783 0 11   0.3  0.6  1997208 39992 ?        Ssl  20:43   0:01    /usr/lib/snapd/snapd
+root     701   1      784 0 11   0.3  0.6  1997208 39992 ?        Ssl  20:43   0:01    /usr/lib/snapd/snapd
+root     701   1      785 0 11   0.3  0.6  1997208 39992 ?        Ssl  20:43   0:01    /usr/lib/snapd/snapd
+root     701   1      861 0 11   0.3  0.6  1997208 39992 ?        Ssl  20:43   0:01    /usr/lib/snapd/snapd
+root     701   1      873 0 11   0.3  0.6  1997208 39992 ?        Ssl  20:43   0:01    /usr/lib/snapd/snapd
+root     701   1      1029 0 11   0.3  0.6  1997208 39992 ?        Ssl  20:43   0:01    /usr/lib/snapd/snapd
+root     701   1      1082 0 11   0.3  0.6  1997208 39992 ?        Ssl  20:43   0:01    /usr/lib/snapd/snapd
+root     701   1      1668 0 11   0.3  0.6  1997208 39992 ?        Ssl  20:43   0:01    /usr/lib/snapd/snapd
+root     713   1      713 0 4    0.0  0.1  313300 8112  ?        Ssl  20:43   0:00    /usr/libexec/accounts-daemon
+root     713   1      774 0 4    0.0  0.1  313300 8112  ?        Ssl  20:43   0:00    /usr/libexec/accounts-daemon
+root     713   1      775 0 4    0.0  0.1  313300 8112  ?        Ssl  20:43   0:00    /usr/libexec/accounts-daemon
+root     713   1      786 0 4    0.0  0.1  313300 8112  ?        Ssl  20:43   0:00    /usr/libexec/accounts-daemon
+root     714   1      714 0 1    0.0  0.0  9432   3040  ?        Ss   20:43   0:00    /usr/sbin/cron -f -P
+root     715   1      715 0 4    0.0  0.1  309896 7236  ?        Ssl  20:43   0:00    /usr/libexec/switcheroo-control
+root     715   1      759 0 4    0.0  0.1  309896 7236  ?        Ssl  20:43   0:00    /usr/libexec/switcheroo-control
+root     715   1      760 0 4    0.0  0.1  309896 7236  ?        Ssl  20:43   0:00    /usr/libexec/switcheroo-control
+root     715   1      767 0 4    0.0  0.1  309896 7236  ?        Ssl  20:43   0:00    /usr/libexec/switcheroo-control
+root     743   1      743 0 1    0.0  0.1  18276  9236  ?        Ss   20:43   0:00    /usr/lib/systemd/systemd-logind
+root     744   1      744 0 6    0.0  0.2  469688 15068 ?        Ssl  20:43   0:00    /usr/libexec/udisks2/udisksd
+root     744   1      806 0 6    0.0  0.2  469688 15068 ?        Ssl  20:43   0:00    /usr/libexec/udisks2/udisksd
+root     744   1      809 0 6    0.0  0.2  469688 15068 ?        Ssl  20:43   0:00    /usr/libexec/udisks2/udisksd
+root     744   1      812 0 6    0.0  0.2  469688 15068 ?        Ssl  20:43   0:00    /usr/libexec/udisks2/udisksd
+root     744   1      924 0 6    0.0  0.2  469688 15068 ?        Ssl  20:43   0:00    /usr/libexec/udisks2/udisksd
+root     744   1      958 0 6    0.0  0.2  469688 15068 ?        Ssl  20:43   0:00    /usr/libexec/udisks2/udisksd
+syslog   777   1      777 0 4    0.0  0.0  222572 6160  ?        Ssl  20:43   0:00    /usr/sbin/rsyslogd -n -iNONE
+syslog   777   1      832 0 4    0.0  0.0  222572 6160  ?        Ssl  20:43   0:00    /usr/sbin/rsyslogd -n -iNONE
+syslog   777   1      833 0 4    0.0  0.0  222572 6160  ?        Ssl  20:43   0:00    /usr/sbin/rsyslogd -n -iNONE
+syslog   777   1      835 0 4    0.0  0.0  222572 6160  ?        Ssl  20:43   0:00    /usr/sbin/rsyslogd -n -iNONE
+avahi    789   670    789 0 1    0.0  0.0  8488   1680  ?        S    20:43   0:00    avahi-daemon: chroot helper
+root     815   1      815 0 4    0.0  0.3  336332 19760 ?        Ssl  20:43   0:00    /usr/sbin/NetworkManager --no-daemon
+root     815   1      893 0 4    0.0  0.3  336332 19760 ?        Ssl  20:43   0:00    /usr/sbin/NetworkManager --no-daemon
+root     815   1      895 0 4    0.0  0.3  336332 19760 ?        Ssl  20:43   0:00    /usr/sbin/NetworkManager --no-daemon
+root     815   1      912 0 4    0.0  0.3  336332 19760 ?        Ssl  20:43   0:00    /usr/sbin/NetworkManager --no-daemon
+root     819   1      819 0 1    0.0  0.1  17392  6664  ?        Ss   20:43   0:00    /usr/sbin/wpa_supplicant -u -s -O DIR=/run/wpa_supplicant GROUP=netdev
+root     891   1      891 0 4    0.0  0.2  392104 13308 ?        Ssl  20:43   0:00    /usr/sbin/ModemManager
+root     891   1      968 0 4    0.0  0.2  392104 13308 ?        Ssl  20:43   0:00    /usr/sbin/ModemManager
+root     891   1      973 0 4    0.0  0.2  392104 13308 ?        Ssl  20:43   0:00    /usr/sbin/ModemManager
+root     891   1      980 0 4    0.0  0.2  392104 13308 ?        Ssl  20:43   0:00    /usr/sbin/ModemManager
+root     1573  1      1573 0 1    0.0  0.2  38396  12620 ?        Ss   20:44   0:00    /usr/sbin/cupsd -l
+root     1580  1      1580 0 2    0.0  0.4  118044 25316 ?        Ssl  20:44   0:00    /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root     1580  1      1601 0 2    0.0  0.4  118044 25316 ?        Ssl  20:44   0:00    /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+cups-br+ 1593  1      1593 0 4    0.0  0.3  268492 20500 ?        Ssl  20:44   0:00    /usr/sbin/cups-browsed
+cups-br+ 1593  1      1603 0 4    0.0  0.3  268492 20500 ?        Ssl  20:44   0:00    /usr/sbin/cups-browsed
+cups-br+ 1593  1      1604 0 4    0.0  0.3  268492 20500 ?        Ssl  20:44   0:00    /usr/sbin/cups-browsed
+cups-br+ 1593  1      1605 0 4    0.0  0.3  268492 20500 ?        Ssl  20:44   0:00    /usr/sbin/cups-browsed
+kernoops 1595  1      1595 0 1    0.0  0.0  12752  2588  ?        Ss   20:44   0:00    /usr/sbin/kerneloops --test
+kernoops 1598  1      1598 0 1    0.0  0.0  12752  2584  ?        Ss   20:44   0:00    /usr/sbin/kerneloops
+mysql    1600  1      1600 0 37   2.6  6.3  2310860 398248 ?        Ssl  20:44   0:09    /usr/sbin/mysqld
+mysql    1600  1      1609 0 37   2.6  6.3  2310860 398248 ?        Ssl  20:44   0:09    /usr/sbin/mysqld
+mysql    1600  1      1610 0 37   2.6  6.3  2310860 398248 ?        Ssl  20:44   0:09    /usr/sbin/mysqld
+mysql    1600  1      1611 0 37   2.6  6.3  2310860 398248 ?        Ssl  20:44   0:09    /usr/sbin/mysqld
+mysql    1600  1      1612 0 37   2.6  6.3  2310860 398248 ?        Ssl  20:44   0:09    /usr/sbin/mysqld
+mysql    1600  1      1613 0 37   2.6  6.3  2310860 398248 ?        Ssl  20:44   0:09    /usr/sbin/mysqld
+mysql    1600  1      1614 0 37   2.6  6.3  2310860 398248 ?        Ssl  20:44   0:09    /usr/sbin/mysqld
+mysql    1600  1      1615 0 37   2.6  6.3  2310860 398248 ?        Ssl  20:44   0:09    /usr/sbin/mysqld
+mysql    1600  1      1616 0 37   2.6  6.3  2310860 398248 ?        Ssl  20:44   0:09    /usr/sbin/mysqld
+mysql    1600  1      1617 0 37   2.6  6.3  2310860 398248 ?        Ssl  20:44   0:09    /usr/sbin/mysqld
+mysql    1600  1      1618 0 37   2.6  6.3  2310860 398248 ?        Ssl  20:44   0:09    /usr/sbin/mysqld
+mysql    1600  1      1619 0 37   2.6  6.3  2310860 398248 ?        Ssl  20:44   0:09    /usr/sbin/mysqld
+mysql    1600  1      1620 0 37   2.6  6.3  2310860 398248 ?        Ssl  20:44   0:09    /usr/sbin/mysqld
+mysql    1600  1      1621 0 37   2.6  6.3  2310860 398248 ?        Ssl  20:44   0:09    /usr/sbin/mysqld
+mysql    1600  1      1622 0 37   2.6  6.3  2310860 398248 ?        Ssl  20:44   0:09    /usr/sbin/mysqld
+mysql    1600  1      1623 0 37   2.6  6.3  2310860 398248 ?        Ssl  20:44   0:09    /usr/sbin/mysqld
+mysql    1600  1      1624 1 37   2.6  6.3  2310860 398248 ?        Ssl  20:44   0:09    /usr/sbin/mysqld
+mysql    1600  1      1629 0 37   2.6  6.3  2310860 398248 ?        Ssl  20:44   0:09    /usr/sbin/mysqld
+mysql    1600  1      1630 0 37   2.6  6.3  2310860 398248 ?        Ssl  20:44   0:09    /usr/sbin/mysqld
+mysql    1600  1      1631 0 37   2.6  6.3  2310860 398248 ?        Ssl  20:44   0:09    /usr/sbin/mysqld
+mysql    1600  1      1632 0 37   2.6  6.3  2310860 398248 ?        Ssl  20:44   0:09    /usr/sbin/mysqld
+mysql    1600  1      1633 0 37   2.6  6.3  2310860 398248 ?        Ssl  20:44   0:09    /usr/sbin/mysqld
+mysql    1600  1      1634 0 37   2.6  6.3  2310860 398248 ?        Ssl  20:44   0:09    /usr/sbin/mysqld
+mysql    1600  1      1635 0 37   2.6  6.3  2310860 398248 ?        Ssl  20:44   0:09    /usr/sbin/mysqld
+mysql    1600  1      1636 0 37   2.6  6.3  2310860 398248 ?        Ssl  20:44   0:09    /usr/sbin/mysqld
+mysql    1600  1      1637 0 37   2.6  6.3  2310860 398248 ?        Ssl  20:44   0:09    /usr/sbin/mysqld
+mysql    1600  1      1638 0 37   2.6  6.3  2310860 398248 ?        Ssl  20:44   0:09    /usr/sbin/mysqld
+mysql    1600  1      1642 0 37   2.6  6.3  2310860 398248 ?        Ssl  20:44   0:09    /usr/sbin/mysqld
+mysql    1600  1      1643 0 37   2.6  6.3  2310860 398248 ?        Ssl  20:44   0:09    /usr/sbin/mysqld
+mysql    1600  1      1644 0 37   2.6  6.3  2310860 398248 ?        Ssl  20:44   0:09    /usr/sbin/mysqld
+mysql    1600  1      1645 0 37   2.6  6.3  2310860 398248 ?        Ssl  20:44   0:09    /usr/sbin/mysqld
+mysql    1600  1      1646 0 37   2.6  6.3  2310860 398248 ?        Ssl  20:44   0:09    /usr/sbin/mysqld
+mysql    1600  1      1647 0 37   2.6  6.3  2310860 398248 ?        Ssl  20:44   0:09    /usr/sbin/mysqld
+mysql    1600  1      1648 0 37   2.6  6.3  2310860 398248 ?        Ssl  20:44   0:09    /usr/sbin/mysqld
+mysql    1600  1      1649 0 37   2.6  6.3  2310860 398248 ?        Ssl  20:44   0:09    /usr/sbin/mysqld
+mysql    1600  1      1650 0 37   2.6  6.3  2310860 398248 ?        Ssl  20:44   0:09    /usr/sbin/mysqld
+mysql    1600  1      1652 0 37   2.6  6.3  2310860 398248 ?        Ssl  20:44   0:09    /usr/sbin/mysqld
+root     2157  1      2157 0 6    0.1  0.0  350068 2516  ?        Sl   20:44   0:00    /usr/bin/VBoxDRMClient
+root     2157  1      2173 0 6    0.1  0.0  350068 2516  ?        Sl   20:44   0:00    /usr/bin/VBoxDRMClient
+root     2157  1      2174 0 6    0.1  0.0  350068 2516  ?        Sl   20:44   0:00    /usr/bin/VBoxDRMClient
+root     2157  1      2176 0 6    0.1  0.0  350068 2516  ?        Sl   20:44   0:00    /usr/bin/VBoxDRMClient
+root     2157  1      2177 0 6    0.1  0.0  350068 2516  ?        Sl   20:44   0:00    /usr/bin/VBoxDRMClient
+root     2157  1      4227 0 6    0.1  0.0  350068 2516  ?        Sl   20:44   0:00    /usr/bin/VBoxDRMClient
+root     2159  1      2159 0 9    0.0  0.0  290204 3952  ?        Sl   20:44   0:00    /usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.sh
+root     2159  1      2161 0 9    0.0  0.0  290204 3952  ?        Sl   20:44   0:00    /usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.sh
+root     2159  1      2163 0 9    0.0  0.0  290204 3952  ?        Sl   20:44   0:00    /usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.sh
+root     2159  1      2165 0 9    0.0  0.0  290204 3952  ?        Sl   20:44   0:00    /usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.sh
+root     2159  1      2166 0 9    0.0  0.0  290204 3952  ?        Sl   20:44   0:00    /usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.sh
+root     2159  1      2167 0 9    0.0  0.0  290204 3952  ?        Sl   20:44   0:00    /usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.sh
+root     2159  1      2171 0 9    0.0  0.0  290204 3952  ?        Sl   20:44   0:00    /usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.sh
+root     2159  1      2172 0 9    0.0  0.0  290204 3952  ?        Sl   20:44   0:00    /usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.sh
+root     2159  1      2175 0 9    0.0  0.0  290204 3952  ?        Sl   20:44   0:00    /usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.sh
+root     2397  2      2397 0 1    0.0  0.0  0      0     ?        I<   20:44   0:00    [kworker/u30:1]
+root     2692  1      2692 0 4    0.0  0.1  314832 9584  ?        Ssl  20:44   0:00    /usr/sbin/gdm3
+root     2692  1      2693 0 4    0.0  0.1  314832 9584  ?        Ssl  20:44   0:00    /usr/sbin/gdm3
+root     2692  1      2694 0 4    0.0  0.1  314832 9584  ?        Ssl  20:44   0:00    /usr/sbin/gdm3
+root     2692  1      2695 0 4    0.0  0.1  314832 9584  ?        Ssl  20:44   0:00    /usr/sbin/gdm3
+root     2704  2      2704 0 1    0.0  0.0  0      0     ?        S    20:44   0:00    [psimon]
+rtkit    2738  1      2738 0 3    0.0  0.0  22948  3612  ?        SNsl 20:44   0:00    /usr/libexec/rtkit-daemon
+rtkit    2738  1      2753 0 3    0.0  0.0  22948  3612  ?        SNsl 20:44   0:00    /usr/libexec/rtkit-daemon
+rtkit    2738  1      2754 0 3    0.0  0.0  22948  3612  ?        SNsl 20:44   0:00    /usr/libexec/rtkit-daemon
+colord   2847  1      2847 0 4    0.0  0.2  320068 14916 ?        Ssl  20:44   0:00    /usr/libexec/colord
+colord   2847  1      2854 0 4    0.0  0.2  320068 14916 ?        Ssl  20:44   0:00    /usr/libexec/colord
+colord   2847  1      2855 0 4    0.0  0.2  320068 14916 ?        Ssl  20:44   0:00    /usr/libexec/colord
+colord   2847  1      2857 0 4    0.0  0.2  320068 14916 ?        Ssl  20:44   0:00    /usr/libexec/colord
+root     2891  1      2891 0 4    0.0  0.1  316892 9372  ?        Ssl  20:44   0:00    /usr/libexec/upowerd
+root     2891  1      2939 0 4    0.0  0.1  316892 9372  ?        Ssl  20:44   0:00    /usr/libexec/upowerd
+root     2891  1      2940 0 4    0.0  0.1  316892 9372  ?        Ssl  20:44   0:00    /usr/libexec/upowerd
+root     2891  1      2942 0 4    0.0  0.1  316892 9372  ?        Ssl  20:44   0:00    /usr/libexec/upowerd
+root     3161  2      3161 0 1    0.0  0.0  0      0     ?        I<   20:44   0:00    [kworker/u27:1]
+root     3204  2      3204 0 1    0.0  0.0  0      0     ?        I<   20:44   0:00    [kworker/1:2H]
+root     3205  2692   3205 0 4    0.0  0.1  242592 10688 ?        Sl   20:44   0:00    gdm-session-worker [pam/gdm-password]
+root     3205  2692   3206 0 4    0.0  0.1  242592 10688 ?        Sl   20:44   0:00    gdm-session-worker [pam/gdm-password]
+root     3205  2692   3207 0 4    0.0  0.1  242592 10688 ?        Sl   20:44   0:00    gdm-session-worker [pam/gdm-password]
+root     3205  2692   3208 0 4    0.0  0.1  242592 10688 ?        Sl   20:44   0:00    gdm-session-worker [pam/gdm-password]
+quitevi+ 3220  1      3220 0 1    0.2  0.2  21244  12824 ?        Ss   20:44   0:00    /usr/lib/systemd/systemd --user
+quitevi+ 3226  3220   3226 0 1    0.0  0.0  21472  3780  ?        S    20:44   0:00    (sd-pam)
+quitevi+ 3235  3220   3235 0 3    0.0  0.2  113576 13020 ?        S<sl 20:44   0:00    /usr/bin/pipewire
+quitevi+ 3235  3220   3266 0 3    0.0  0.2  113576 13020 ?        S<sl 20:44   0:00    /usr/bin/pipewire
+quitevi+ 3235  3220   3278 0 3    0.0  0.2  113576 13020 ?        S<sl 20:44   0:00    /usr/bin/pipewire
+root     3236  2      3236 0 1    0.0  0.0  0      0     ?        I<   20:44   0:00    [kworker/3:2H-kblockd]
+quitevi+ 3237  3220   3237 0 3    0.0  0.0  97744  6180  ?        Ssl  20:44   0:00    /usr/bin/pipewire -c filter-chain.conf
+quitevi+ 3237  3220   3282 0 3    0.0  0.0  97744  6180  ?        Ssl  20:44   0:00    /usr/bin/pipewire -c filter-chain.conf
+quitevi+ 3237  3220   3287 0 3    0.0  0.0  97744  6180  ?        Ssl  20:44   0:00    /usr/bin/pipewire -c filter-chain.conf
+quitevi+ 3240  3220   3240 0 6    0.0  0.3  406872 19228 ?        S<sl 20:44   0:00    /usr/bin/wireplumber
+quitevi+ 3240  3220   3280 0 6    0.0  0.3  406872 19228 ?        S<sl 20:44   0:00    /usr/bin/wireplumber
+quitevi+ 3240  3220   3285 0 6    0.0  0.3  406872 19228 ?        S<sl 20:44   0:00    /usr/bin/wireplumber
+quitevi+ 3240  3220   3288 0 6    0.0  0.3  406872 19228 ?        S<sl 20:44   0:00    /usr/bin/wireplumber
+quitevi+ 3240  3220   3293 0 6    0.0  0.3  406872 19228 ?        S<sl 20:44   0:00    /usr/bin/wireplumber
+quitevi+ 3240  3220   3297 0 6    0.0  0.3  406872 19228 ?        S<sl 20:44   0:00    /usr/bin/wireplumber
+quitevi+ 3241  3220   3241 0 3    0.0  0.1  110264 11796 ?        S<sl 20:44   0:00    /usr/bin/pipewire-pulse
+quitevi+ 3241  3220   3265 0 3    0.0  0.1  110264 11796 ?        S<sl 20:44   0:00    /usr/bin/pipewire-pulse
+quitevi+ 3241  3220   3283 0 3    0.0  0.1  110264 11796 ?        S<sl 20:44   0:00    /usr/bin/pipewire-pulse
+quitevi+ 3242  3220   3242 0 1    0.3  0.1  10840  6776  ?        Ss   20:44   0:01    /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+quitevi+ 3251  3220   3251 0 5    0.0  0.1  316516 10516 ?        SLsl 20:44   0:00    /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+quitevi+ 3251  3220   3257 0 5    0.0  0.1  316516 10516 ?        SLsl 20:44   0:00    /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+quitevi+ 3251  3220   3258 0 5    0.0  0.1  316516 10516 ?        SLsl 20:44   0:00    /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+quitevi+ 3251  3220   3261 0 5    0.0  0.1  316516 10516 ?        SLsl 20:44   0:00    /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+quitevi+ 3251  3220   3263 0 5    0.0  0.1  316516 10516 ?        SLsl 20:44   0:00    /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+quitevi+ 3286  3220   3286 0 7    0.0  0.1  610300 7692  ?        Ssl  20:44   0:00    /usr/libexec/xdg-document-portal
+quitevi+ 3286  3220   3291 0 7    0.0  0.1  610300 7692  ?        Ssl  20:44   0:00    /usr/libexec/xdg-document-portal
+quitevi+ 3286  3220   3292 0 7    0.0  0.1  610300 7692  ?        Ssl  20:44   0:00    /usr/libexec/xdg-document-portal
+quitevi+ 3286  3220   3294 0 7    0.0  0.1  610300 7692  ?        Ssl  20:44   0:00    /usr/libexec/xdg-document-portal
+quitevi+ 3286  3220   3320 0 7    0.0  0.1  610300 7692  ?        Ssl  20:44   0:00    /usr/libexec/xdg-document-portal
+quitevi+ 3286  3220   3323 0 7    0.0  0.1  610300 7692  ?        Ssl  20:44   0:00    /usr/libexec/xdg-document-portal
+quitevi+ 3286  3220   3324 0 7    0.0  0.1  610300 7692  ?        Ssl  20:44   0:00    /usr/libexec/xdg-document-portal
+quitevi+ 3299  3220   3299 0 4    0.0  0.1  309316 6364  ?        Ssl  20:44   0:00    /usr/libexec/xdg-permission-store
+quitevi+ 3299  3220   3309 0 4    0.0  0.1  309316 6364  ?        Ssl  20:44   0:00    /usr/libexec/xdg-permission-store
+quitevi+ 3299  3220   3310 0 4    0.0  0.1  309316 6364  ?        Ssl  20:44   0:00    /usr/libexec/xdg-permission-store
+quitevi+ 3299  3220   3315 0 4    0.0  0.1  309316 6364  ?        Ssl  20:44   0:00    /usr/libexec/xdg-permission-store
+quitevi+ 3308  3205   3308 0 4    0.0  0.1  235676 6360  tty2     Ssl+ 20:44   0:00    /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+quitevi+ 3308  3205   3313 0 4    0.0  0.1  235676 6360  tty2     Ssl+ 20:44   0:00    /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+quitevi+ 3308  3205   3314 0 4    0.0  0.1  235676 6360  tty2     Ssl+ 20:44   0:00    /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+quitevi+ 3308  3205   3316 0 4    0.0  0.1  235676 6360  tty2     Ssl+ 20:44   0:00    /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+quitevi+ 3317  3308   3317 0 4    0.0  0.2  298244 16900 tty2     Sl+  20:44   0:00    /usr/libexec/gnome-session-binary --session=ubuntu
+quitevi+ 3317  3308   3400 0 4    0.0  0.2  298244 16900 tty2     Sl+  20:44   0:00    /usr/libexec/gnome-session-binary --session=ubuntu
+quitevi+ 3317  3308   3401 0 4    0.0  0.2  298244 16900 tty2     Sl+  20:44   0:00    /usr/libexec/gnome-session-binary --session=ubuntu
+quitevi+ 3317  3308   3402 0 4    0.0  0.2  298244 16900 tty2     Sl+  20:44   0:00    /usr/libexec/gnome-session-binary --session=ubuntu
+root     3321  3286   3321 0 1    0.0  0.0  2712   2100  ?        Ss   20:44   0:00    fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+quitevi+ 3404  3220   3404 0 3    0.0  0.1  162660 7196  ?        Ssl  20:44   0:00    /usr/libexec/gcr-ssh-agent --base-dir /run/user/1000/gcr
+quitevi+ 3404  3220   3409 0 3    0.0  0.1  162660 7196  ?        Ssl  20:44   0:00    /usr/libexec/gcr-ssh-agent --base-dir /run/user/1000/gcr
+quitevi+ 3404  3220   3410 0 3    0.0  0.1  162660 7196  ?        Ssl  20:44   0:00    /usr/libexec/gcr-ssh-agent --base-dir /run/user/1000/gcr
+quitevi+ 3406  3220   3406 0 2    0.0  0.0  91556  5856  ?        Ssl  20:44   0:00    /usr/libexec/gnome-session-ctl --monitor
+quitevi+ 3406  3220   3413 0 2    0.0  0.0  91556  5856  ?        Ssl  20:44   0:00    /usr/libexec/gnome-session-ctl --monitor
+quitevi+ 3425  3220   3425 0 4    0.0  0.1  314272 8160  ?        Ssl  20:44   0:00    /usr/libexec/gvfsd
+quitevi+ 3425  3220   3430 0 4    0.0  0.1  314272 8160  ?        Ssl  20:44   0:00    /usr/libexec/gvfsd
+quitevi+ 3425  3220   3431 0 4    0.0  0.1  314272 8160  ?        Ssl  20:44   0:00    /usr/libexec/gvfsd
+quitevi+ 3425  3220   3432 0 4    0.0  0.1  314272 8160  ?        Ssl  20:44   0:00    /usr/libexec/gvfsd
+quitevi+ 3436  3220   3436 0 7    0.0  0.1  459716 7316  ?        Sl   20:44   0:00    /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+quitevi+ 3436  3220   3440 0 7    0.0  0.1  459716 7316  ?        Sl   20:44   0:00    /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+quitevi+ 3436  3220   3441 0 7    0.0  0.1  459716 7316  ?        Sl   20:44   0:00    /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+quitevi+ 3436  3220   3442 0 7    0.0  0.1  459716 7316  ?        Sl   20:44   0:00    /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+quitevi+ 3436  3220   3443 0 7    0.0  0.1  459716 7316  ?        Sl   20:44   0:00    /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+quitevi+ 3436  3220   3447 0 7    0.0  0.1  459716 7316  ?        Sl   20:44   0:00    /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+quitevi+ 3436  3220   3448 0 7    0.0  0.1  459716 7316  ?        Sl   20:44   0:00    /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+quitevi+ 3439  3220   3439 0 5    0.1  0.2  733516 18748 ?        Ssl  20:44   0:00    /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+quitevi+ 3439  3220   3454 0 5    0.1  0.2  733516 18748 ?        Ssl  20:44   0:00    /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+quitevi+ 3439  3220   3455 0 5    0.1  0.2  733516 18748 ?        Ssl  20:44   0:00    /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+quitevi+ 3439  3220   3457 0 5    0.1  0.2  733516 18748 ?        Ssl  20:44   0:00    /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+quitevi+ 3439  3220   3460 0 5    0.1  0.2  733516 18748 ?        Ssl  20:44   0:00    /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+quitevi+ 3483  3439   3483 0 5    0.0  0.1  382964 8028  ?        Sl   20:44   0:00    /usr/libexec/at-spi-bus-launcher --launch-immediately
+quitevi+ 3483  3439   3492 0 5    0.0  0.1  382964 8028  ?        Sl   20:44   0:00    /usr/libexec/at-spi-bus-launcher --launch-immediately
+quitevi+ 3483  3439   3493 0 5    0.0  0.1  382964 8028  ?        Sl   20:44   0:00    /usr/libexec/at-spi-bus-launcher --launch-immediately
+quitevi+ 3483  3439   3494 0 5    0.0  0.1  382964 8028  ?        Sl   20:44   0:00    /usr/libexec/at-spi-bus-launcher --launch-immediately
+quitevi+ 3483  3439   3496 0 5    0.0  0.1  382964 8028  ?        Sl   20:44   0:00    /usr/libexec/at-spi-bus-launcher --launch-immediately
+quitevi+ 3487  3220   3487 17 25   45.0 7.6  5208512 482360 ?        Ssl  20:44   2:26    /usr/bin/gnome-shell
+quitevi+ 3487  3220   3501 0 25   45.0 7.6  5208512 482360 ?        Ssl  20:44   2:26    /usr/bin/gnome-shell
+quitevi+ 3487  3220   3502 0 25   45.0 7.6  5208512 482360 ?        Ssl  20:44   2:26    /usr/bin/gnome-shell
+quitevi+ 3487  3220   3504 0 25   45.0 7.6  5208512 482360 ?        Ssl  20:44   2:26    /usr/bin/gnome-shell
+quitevi+ 3487  3220   3505 0 25   45.0 7.6  5208512 482360 ?        Ssl  20:44   2:26    /usr/bin/gnome-shell
+quitevi+ 3487  3220   3506 0 25   45.0 7.6  5208512 482360 ?        Ssl  20:44   2:26    /usr/bin/gnome-shell
+quitevi+ 3487  3220   3507 0 25   45.0 7.6  5208512 482360 ?        Ssl  20:44   2:26    /usr/bin/gnome-shell
+quitevi+ 3487  3220   3508 0 25   45.0 7.6  5208512 482360 ?        Ssl  20:44   2:26    /usr/bin/gnome-shell
+quitevi+ 3487  3220   3509 0 25   45.0 7.6  5208512 482360 ?        Ssl  20:44   2:26    /usr/bin/gnome-shell
+quitevi+ 3487  3220   3510 0 25   45.0 7.6  5208512 482360 ?        Ssl  20:44   2:26    /usr/bin/gnome-shell
+quitevi+ 3487  3220   3511 2 25   45.0 7.6  5208512 482360 ?        Ssl  20:44   2:26    /usr/bin/gnome-shell
+quitevi+ 3487  3220   3518 4 25   45.0 7.6  5208512 482360 ?        Ssl  20:44   2:26    /usr/bin/gnome-shell
+quitevi+ 3487  3220   3519 4 25   45.0 7.6  5208512 482360 ?        Ssl  20:44   2:26    /usr/bin/gnome-shell
+quitevi+ 3487  3220   3520 4 25   45.0 7.6  5208512 482360 ?        Ssl  20:44   2:26    /usr/bin/gnome-shell
+quitevi+ 3487  3220   3522 4 25   45.0 7.6  5208512 482360 ?        Ssl  20:44   2:26    /usr/bin/gnome-shell
+quitevi+ 3487  3220   3523 5 25   45.0 7.6  5208512 482360 ?        Ssl  20:44   2:26    /usr/bin/gnome-shell
+quitevi+ 3487  3220   3524 0 25   45.0 7.6  5208512 482360 ?        Ssl  20:44   2:26    /usr/bin/gnome-shell
+quitevi+ 3487  3220   3525 0 25   45.0 7.6  5208512 482360 ?        Ssl  20:44   2:26    /usr/bin/gnome-shell
+quitevi+ 3487  3220   3526 0 25   45.0 7.6  5208512 482360 ?        Ssl  20:44   2:26    /usr/bin/gnome-shell
+quitevi+ 3487  3220   3527 0 25   45.0 7.6  5208512 482360 ?        Ssl  20:44   2:26    /usr/bin/gnome-shell
+quitevi+ 3487  3220   3528 0 25   45.0 7.6  5208512 482360 ?        Ssl  20:44   2:26    /usr/bin/gnome-shell
+quitevi+ 3487  3220   3529 0 25   45.0 7.6  5208512 482360 ?        Ssl  20:44   2:26    /usr/bin/gnome-shell
+quitevi+ 3487  3220   3534 1 25   45.0 7.6  5208512 482360 ?        Ssl  20:44   2:26    /usr/bin/gnome-shell
+quitevi+ 3487  3220   3945 0 25   45.0 7.6  5208512 482360 ?        Ssl  20:44   2:26    /usr/bin/gnome-shell
+quitevi+ 3487  3220   4046 0 25   45.0 7.6  5208512 482360 ?        Ssl  20:44   2:26    /usr/bin/gnome-shell
+quitevi+ 3499  3483   3499 0 1    0.0  0.0  9784   5500  ?        S    20:44   0:00    /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+quitevi+ 3551  3220   3551 0 4    0.0  0.1  236076 7744  ?        Sl   20:44   0:00    /usr/libexec/at-spi2-registryd --use-gnome-session
+quitevi+ 3551  3220   3552 0 4    0.0  0.1  236076 7744  ?        Sl   20:44   0:00    /usr/libexec/at-spi2-registryd --use-gnome-session
+quitevi+ 3551  3220   3553 0 4    0.0  0.1  236076 7744  ?        Sl   20:44   0:00    /usr/libexec/at-spi2-registryd --use-gnome-session
+quitevi+ 3551  3220   3554 0 4    0.0  0.1  236076 7744  ?        Sl   20:44   0:00    /usr/libexec/at-spi2-registryd --use-gnome-session
+quitevi+ 3573  3220   3573 0 7    0.0  0.2  654800 18132 ?        Sl   20:44   0:00    /usr/libexec/gnome-shell-calendar-server
+quitevi+ 3573  3220   3575 0 7    0.0  0.2  654800 18132 ?        Sl   20:44   0:00    /usr/libexec/gnome-shell-calendar-server
+quitevi+ 3573  3220   3576 0 7    0.0  0.2  654800 18132 ?        Sl   20:44   0:00    /usr/libexec/gnome-shell-calendar-server
+quitevi+ 3573  3220   3578 0 7    0.0  0.2  654800 18132 ?        Sl   20:44   0:00    /usr/libexec/gnome-shell-calendar-server
+quitevi+ 3573  3220   3580 0 7    0.0  0.2  654800 18132 ?        Sl   20:44   0:00    /usr/libexec/gnome-shell-calendar-server
+quitevi+ 3573  3220   3581 0 7    0.0  0.2  654800 18132 ?        Sl   20:44   0:00    /usr/libexec/gnome-shell-calendar-server
+quitevi+ 3573  3220   3840 0 7    0.0  0.2  654800 18132 ?        Sl   20:44   0:00    /usr/libexec/gnome-shell-calendar-server
+quitevi+ 3582  3220   3582 0 5    0.0  0.6  595356 43380 ?        Ssl  20:44   0:00    /usr/libexec/evolution-source-registry
+quitevi+ 3582  3220   3586 0 5    0.0  0.6  595356 43380 ?        Ssl  20:44   0:00    /usr/libexec/evolution-source-registry
+quitevi+ 3582  3220   3587 0 5    0.0  0.6  595356 43380 ?        Ssl  20:44   0:00    /usr/libexec/evolution-source-registry
+quitevi+ 3582  3220   3588 0 5    0.0  0.6  595356 43380 ?        Ssl  20:44   0:00    /usr/libexec/evolution-source-registry
+quitevi+ 3582  3220   3590 0 5    0.0  0.6  595356 43380 ?        Ssl  20:44   0:00    /usr/libexec/evolution-source-registry
+quitevi+ 3594  3220   3594 0 9    0.0  0.4  2590896 27352 ?        Sl   20:44   0:00    /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+quitevi+ 3594  3220   3596 0 9    0.0  0.4  2590896 27352 ?        Sl   20:44   0:00    /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+quitevi+ 3594  3220   3597 0 9    0.0  0.4  2590896 27352 ?        Sl   20:44   0:00    /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+quitevi+ 3594  3220   3598 0 9    0.0  0.4  2590896 27352 ?        Sl   20:44   0:00    /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+quitevi+ 3594  3220   3601 0 9    0.0  0.4  2590896 27352 ?        Sl   20:44   0:00    /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+quitevi+ 3594  3220   3602 0 9    0.0  0.4  2590896 27352 ?        Sl   20:44   0:00    /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+quitevi+ 3594  3220   3603 0 9    0.0  0.4  2590896 27352 ?        Sl   20:44   0:00    /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+quitevi+ 3594  3220   3604 0 9    0.0  0.4  2590896 27352 ?        Sl   20:44   0:00    /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+quitevi+ 3594  3220   3605 0 9    0.0  0.4  2590896 27352 ?        Sl   20:44   0:00    /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+quitevi+ 3600  3220   3600 0 4    0.2  0.2  388848 12572 ?        Ssl  20:44   0:00    /usr/bin/ibus-daemon --panel disable
+quitevi+ 3600  3220   3751 0 4    0.2  0.2  388848 12572 ?        Ssl  20:44   0:00    /usr/bin/ibus-daemon --panel disable
+quitevi+ 3600  3220   3752 0 4    0.2  0.2  388848 12572 ?        Ssl  20:44   0:00    /usr/bin/ibus-daemon --panel disable
+quitevi+ 3600  3220   3754 0 4    0.2  0.2  388848 12572 ?        Ssl  20:44   0:00    /usr/bin/ibus-daemon --panel disable
+quitevi+ 3606  3220   3606 0 5    0.0  0.1  383544 6820  ?        Ssl  20:44   0:00    /usr/libexec/gsd-a11y-settings
+quitevi+ 3606  3220   3623 0 5    0.0  0.1  383544 6820  ?        Ssl  20:44   0:00    /usr/libexec/gsd-a11y-settings
+quitevi+ 3606  3220   3629 0 5    0.0  0.1  383544 6820  ?        Ssl  20:44   0:00    /usr/libexec/gsd-a11y-settings
+quitevi+ 3606  3220   3632 0 5    0.0  0.1  383544 6820  ?        Ssl  20:44   0:00    /usr/libexec/gsd-a11y-settings
+quitevi+ 3606  3220   3724 0 5    0.0  0.1  383544 6820  ?        Ssl  20:44   0:00    /usr/libexec/gsd-a11y-settings
+quitevi+ 3610  3220   3610 0 5    0.0  0.3  412960 21128 ?        Ssl  20:44   0:00    /usr/libexec/gsd-color
+quitevi+ 3610  3220   3676 0 5    0.0  0.3  412960 21128 ?        Ssl  20:44   0:00    /usr/libexec/gsd-color
+quitevi+ 3610  3220   3679 0 5    0.0  0.3  412960 21128 ?        Ssl  20:44   0:00    /usr/libexec/gsd-color
+quitevi+ 3610  3220   3692 0 5    0.0  0.3  412960 21128 ?        Ssl  20:44   0:00    /usr/libexec/gsd-color
+quitevi+ 3610  3220   3702 0 5    0.0  0.3  412960 21128 ?        Ssl  20:44   0:00    /usr/libexec/gsd-color
+quitevi+ 3615  3220   3615 0 5    0.0  0.2  431696 12600 ?        Ssl  20:44   0:00    /usr/libexec/gsd-datetime
+quitevi+ 3615  3220   3635 0 5    0.0  0.2  431696 12600 ?        Ssl  20:44   0:00    /usr/libexec/gsd-datetime
+quitevi+ 3615  3220   3636 0 5    0.0  0.2  431696 12600 ?        Ssl  20:44   0:00    /usr/libexec/gsd-datetime
+quitevi+ 3615  3220   3644 0 5    0.0  0.2  431696 12600 ?        Ssl  20:44   0:00    /usr/libexec/gsd-datetime
+quitevi+ 3615  3220   3727 0 5    0.0  0.2  431696 12600 ?        Ssl  20:44   0:00    /usr/libexec/gsd-datetime
+quitevi+ 3617  3220   3617 0 5    0.0  0.1  458892 8212  ?        Ssl  20:44   0:00    /usr/libexec/gsd-housekeeping
+quitevi+ 3617  3220   3626 0 5    0.0  0.1  458892 8212  ?        Ssl  20:44   0:00    /usr/libexec/gsd-housekeeping
+quitevi+ 3617  3220   3627 0 5    0.0  0.1  458892 8212  ?        Ssl  20:44   0:00    /usr/libexec/gsd-housekeeping
+quitevi+ 3617  3220   3633 0 5    0.0  0.1  458892 8212  ?        Ssl  20:44   0:00    /usr/libexec/gsd-housekeeping
+quitevi+ 3617  3220   3723 0 5    0.0  0.1  458892 8212  ?        Ssl  20:44   0:00    /usr/libexec/gsd-housekeeping
+quitevi+ 3619  3220   3619 0 5    0.0  0.3  411812 20392 ?        Ssl  20:44   0:00    /usr/libexec/gsd-keyboard
+quitevi+ 3619  3220   3680 0 5    0.0  0.3  411812 20392 ?        Ssl  20:44   0:00    /usr/libexec/gsd-keyboard
+quitevi+ 3619  3220   3681 0 5    0.0  0.3  411812 20392 ?        Ssl  20:44   0:00    /usr/libexec/gsd-keyboard
+quitevi+ 3619  3220   3691 0 5    0.0  0.3  411812 20392 ?        Ssl  20:44   0:00    /usr/libexec/gsd-keyboard
+quitevi+ 3619  3220   3703 0 5    0.0  0.3  411812 20392 ?        Ssl  20:44   0:00    /usr/libexec/gsd-keyboard
+quitevi+ 3621  3220   3621 0 5    0.0  0.4  741660 26112 ?        Ssl  20:44   0:00    /usr/libexec/gsd-media-keys
+quitevi+ 3621  3220   3738 0 5    0.0  0.4  741660 26112 ?        Ssl  20:44   0:00    /usr/libexec/gsd-media-keys
+quitevi+ 3621  3220   3739 0 5    0.0  0.4  741660 26112 ?        Ssl  20:44   0:00    /usr/libexec/gsd-media-keys
+quitevi+ 3621  3220   3747 0 5    0.0  0.4  741660 26112 ?        Ssl  20:44   0:00    /usr/libexec/gsd-media-keys
+quitevi+ 3621  3220   3753 0 5    0.0  0.4  741660 26112 ?        Ssl  20:44   0:00    /usr/libexec/gsd-media-keys
+quitevi+ 3622  3220   3622 0 5    0.0  0.3  597188 24964 ?        Ssl  20:44   0:00    /usr/libexec/gsd-power
+quitevi+ 3622  3220   3762 0 5    0.0  0.3  597188 24964 ?        Ssl  20:44   0:00    /usr/libexec/gsd-power
+quitevi+ 3622  3220   3763 0 5    0.0  0.3  597188 24964 ?        Ssl  20:44   0:00    /usr/libexec/gsd-power
+quitevi+ 3622  3220   3765 0 5    0.0  0.3  597188 24964 ?        Ssl  20:44   0:00    /usr/libexec/gsd-power
+quitevi+ 3622  3220   3768 0 5    0.0  0.3  597188 24964 ?        Ssl  20:44   0:00    /usr/libexec/gsd-power
+quitevi+ 3624  3220   3624 0 4    0.0  0.1  323764 11900 ?        Ssl  20:44   0:00    /usr/libexec/gsd-print-notifications
+quitevi+ 3624  3220   3637 0 4    0.0  0.1  323764 11900 ?        Ssl  20:44   0:00    /usr/libexec/gsd-print-notifications
+quitevi+ 3624  3220   3638 0 4    0.0  0.1  323764 11900 ?        Ssl  20:44   0:00    /usr/libexec/gsd-print-notifications
+quitevi+ 3624  3220   3641 0 4    0.0  0.1  323764 11900 ?        Ssl  20:44   0:00    /usr/libexec/gsd-print-notifications
+quitevi+ 3631  3220   3631 0 4    0.0  0.1  531092 7028  ?        Ssl  20:44   0:00    /usr/libexec/gsd-rfkill
+quitevi+ 3631  3220   3686 0 4    0.0  0.1  531092 7028  ?        Ssl  20:44   0:00    /usr/libexec/gsd-rfkill
+quitevi+ 3631  3220   3693 0 4    0.0  0.1  531092 7028  ?        Ssl  20:44   0:00    /usr/libexec/gsd-rfkill
+quitevi+ 3631  3220   3708 0 4    0.0  0.1  531092 7028  ?        Ssl  20:44   0:00    /usr/libexec/gsd-rfkill
+quitevi+ 3646  3439   3646 0 8    0.1  0.9  826368 60960 ?        Sl   20:44   0:00    /usr/libexec/evolution-data-server/evolution-alarm-notify
+quitevi+ 3646  3439   3791 0 8    0.1  0.9  826368 60960 ?        Sl   20:44   0:00    /usr/libexec/evolution-data-server/evolution-alarm-notify
+quitevi+ 3646  3439   3792 0 8    0.1  0.9  826368 60960 ?        Sl   20:44   0:00    /usr/libexec/evolution-data-server/evolution-alarm-notify
+quitevi+ 3646  3439   3797 0 8    0.1  0.9  826368 60960 ?        Sl   20:44   0:00    /usr/libexec/evolution-data-server/evolution-alarm-notify
+quitevi+ 3646  3439   3820 0 8    0.1  0.9  826368 60960 ?        Sl   20:44   0:00    /usr/libexec/evolution-data-server/evolution-alarm-notify
+quitevi+ 3646  3439   4081 0 8    0.1  0.9  826368 60960 ?        Sl   20:44   0:00    /usr/libexec/evolution-data-server/evolution-alarm-notify
+quitevi+ 3646  3439   4085 0 8    0.1  0.9  826368 60960 ?        Sl   20:44   0:00    /usr/libexec/evolution-data-server/evolution-alarm-notify
+quitevi+ 3646  3439   4087 0 8    0.1  0.9  826368 60960 ?        Sl   20:44   0:00    /usr/libexec/evolution-data-server/evolution-alarm-notify
+quitevi+ 3647  3220   3647 0 4    0.0  0.1  309568 6408  ?        Ssl  20:44   0:00    /usr/libexec/gsd-screensaver-proxy
+quitevi+ 3647  3220   3696 0 4    0.0  0.1  309568 6408  ?        Ssl  20:44   0:00    /usr/libexec/gsd-screensaver-proxy
+quitevi+ 3647  3220   3697 0 4    0.0  0.1  309568 6408  ?        Ssl  20:44   0:00    /usr/libexec/gsd-screensaver-proxy
+quitevi+ 3647  3220   3704 0 4    0.0  0.1  309568 6408  ?        Ssl  20:44   0:00    /usr/libexec/gsd-screensaver-proxy
+quitevi+ 3657  3220   3657 0 5    0.0  0.1  543212 12172 ?        Ssl  20:44   0:00    /usr/libexec/gsd-sharing
+quitevi+ 3657  3220   3735 0 5    0.0  0.1  543212 12172 ?        Ssl  20:44   0:00    /usr/libexec/gsd-sharing
+quitevi+ 3657  3220   3736 0 5    0.0  0.1  543212 12172 ?        Ssl  20:44   0:00    /usr/libexec/gsd-sharing
+quitevi+ 3657  3220   3740 0 5    0.0  0.1  543212 12172 ?        Ssl  20:44   0:00    /usr/libexec/gsd-sharing
+quitevi+ 3657  3220   3750 0 5    0.0  0.1  543212 12172 ?        Ssl  20:44   0:00    /usr/libexec/gsd-sharing
+quitevi+ 3668  3220   3668 0 5    0.0  0.1  459576 8396  ?        Ssl  20:44   0:00    /usr/libexec/gsd-smartcard
+quitevi+ 3668  3220   3710 0 5    0.0  0.1  459576 8396  ?        Ssl  20:44   0:00    /usr/libexec/gsd-smartcard
+quitevi+ 3668  3220   3713 0 5    0.0  0.1  459576 8396  ?        Ssl  20:44   0:00    /usr/libexec/gsd-smartcard
+quitevi+ 3668  3220   3721 0 5    0.0  0.1  459576 8396  ?        Ssl  20:44   0:00    /usr/libexec/gsd-smartcard
+quitevi+ 3668  3220   3731 0 5    0.0  0.1  459576 8396  ?        Ssl  20:44   0:00    /usr/libexec/gsd-smartcard
+quitevi+ 3672  3220   3672 0 5    0.0  0.1  393656 10148 ?        Ssl  20:44   0:00    /usr/libexec/gsd-sound
+quitevi+ 3672  3220   3733 0 5    0.0  0.1  393656 10148 ?        Ssl  20:44   0:00    /usr/libexec/gsd-sound
+quitevi+ 3672  3220   3734 0 5    0.0  0.1  393656 10148 ?        Ssl  20:44   0:00    /usr/libexec/gsd-sound
+quitevi+ 3672  3220   3737 0 5    0.0  0.1  393656 10148 ?        Ssl  20:44   0:00    /usr/libexec/gsd-sound
+quitevi+ 3672  3220   3788 0 5    0.0  0.1  393656 10148 ?        Ssl  20:44   0:00    /usr/libexec/gsd-sound
+quitevi+ 3674  3220   3674 0 5    0.0  0.3  486520 21300 ?        Ssl  20:44   0:00    /usr/libexec/gsd-wacom
+quitevi+ 3674  3220   3743 0 5    0.0  0.3  486520 21300 ?        Ssl  20:44   0:00    /usr/libexec/gsd-wacom
+quitevi+ 3674  3220   3744 0 5    0.0  0.3  486520 21300 ?        Ssl  20:44   0:00    /usr/libexec/gsd-wacom
+quitevi+ 3674  3220   3748 0 5    0.0  0.3  486520 21300 ?        Ssl  20:44   0:00    /usr/libexec/gsd-wacom
+quitevi+ 3674  3220   3755 0 5    0.0  0.3  486520 21300 ?        Ssl  20:44   0:00    /usr/libexec/gsd-wacom
+quitevi+ 3685  3439   3685 0 4    0.0  0.1  305632 7716  ?        Sl   20:44   0:00    /usr/libexec/gsd-disk-utility-notify
+quitevi+ 3685  3439   3698 0 4    0.0  0.1  305632 7716  ?        Sl   20:44   0:00    /usr/libexec/gsd-disk-utility-notify
+quitevi+ 3685  3439   3699 0 4    0.0  0.1  305632 7716  ?        Sl   20:44   0:00    /usr/libexec/gsd-disk-utility-notify
+quitevi+ 3685  3439   3722 0 4    0.0  0.1  305632 7716  ?        Sl   20:44   0:00    /usr/libexec/gsd-disk-utility-notify
+quitevi+ 3761  3220   3761 0 5    0.0  0.1  536808 11876 ?        Ssl  20:44   0:00    /usr/libexec/gvfs-udisks2-volume-monitor
+quitevi+ 3761  3220   3772 0 5    0.0  0.1  536808 11876 ?        Ssl  20:44   0:00    /usr/libexec/gvfs-udisks2-volume-monitor
+quitevi+ 3761  3220   3773 0 5    0.0  0.1  536808 11876 ?        Ssl  20:44   0:00    /usr/libexec/gvfs-udisks2-volume-monitor
+quitevi+ 3761  3220   3774 0 5    0.0  0.1  536808 11876 ?        Ssl  20:44   0:00    /usr/libexec/gvfs-udisks2-volume-monitor
+quitevi+ 3761  3220   3834 0 5    0.0  0.1  536808 11876 ?        Ssl  20:44   0:00    /usr/libexec/gvfs-udisks2-volume-monitor
+quitevi+ 3770  3600   3770 0 5    0.0  0.1  310476 7528  ?        Sl   20:44   0:00    /usr/libexec/ibus-dconf
+quitevi+ 3770  3600   3775 0 5    0.0  0.1  310476 7528  ?        Sl   20:44   0:00    /usr/libexec/ibus-dconf
+quitevi+ 3770  3600   3778 0 5    0.0  0.1  310476 7528  ?        Sl   20:44   0:00    /usr/libexec/ibus-dconf
+quitevi+ 3770  3600   3784 0 5    0.0  0.1  310476 7528  ?        Sl   20:44   0:00    /usr/libexec/ibus-dconf
+quitevi+ 3770  3600   3822 0 5    0.0  0.1  310476 7528  ?        Sl   20:44   0:00    /usr/libexec/ibus-dconf
+quitevi+ 3771  3600   3771 0 5    0.8  0.4  421428 30412 ?        Sl   20:44   0:02    /usr/libexec/ibus-extension-gtk3
+quitevi+ 3771  3600   3794 0 5    0.8  0.4  421428 30412 ?        Sl   20:44   0:02    /usr/libexec/ibus-extension-gtk3
+quitevi+ 3771  3600   3795 0 5    0.8  0.4  421428 30412 ?        Sl   20:44   0:02    /usr/libexec/ibus-extension-gtk3
+quitevi+ 3771  3600   3805 0 5    0.8  0.4  421428 30412 ?        Sl   20:44   0:02    /usr/libexec/ibus-extension-gtk3
+quitevi+ 3771  3600   3816 0 5    0.8  0.4  421428 30412 ?        Sl   20:44   0:02    /usr/libexec/ibus-extension-gtk3
+quitevi+ 3790  3220   3790 0 4    0.0  0.2  416244 15512 ?        Sl   20:44   0:00    /usr/libexec/gsd-printer
+quitevi+ 3790  3220   3814 0 4    0.0  0.2  416244 15512 ?        Sl   20:44   0:00    /usr/libexec/gsd-printer
+quitevi+ 3790  3220   3815 0 4    0.0  0.2  416244 15512 ?        Sl   20:44   0:00    /usr/libexec/gsd-printer
+quitevi+ 3790  3220   3830 0 4    0.0  0.2  416244 15512 ?        Sl   20:44   0:00    /usr/libexec/gsd-printer
+quitevi+ 3799  3220   3799 0 4    0.0  0.1  310432 7416  ?        Sl   20:44   0:00    /usr/libexec/ibus-portal
+quitevi+ 3799  3220   3811 0 4    0.0  0.1  310432 7416  ?        Sl   20:44   0:00    /usr/libexec/ibus-portal
+quitevi+ 3799  3220   3812 0 4    0.0  0.1  310432 7416  ?        Sl   20:44   0:00    /usr/libexec/ibus-portal
+quitevi+ 3799  3220   3818 0 4    0.0  0.1  310432 7416  ?        Sl   20:44   0:00    /usr/libexec/ibus-portal
+quitevi+ 3825  3220   3825 0 5    0.0  0.3  546692 24684 ?        Sl   20:44   0:00    /usr/libexec/goa-daemon
+quitevi+ 3825  3220   3842 0 5    0.0  0.3  546692 24684 ?        Sl   20:44   0:00    /usr/libexec/goa-daemon
+quitevi+ 3825  3220   3844 0 5    0.0  0.3  546692 24684 ?        Sl   20:44   0:00    /usr/libexec/goa-daemon
+quitevi+ 3825  3220   3849 0 5    0.0  0.3  546692 24684 ?        Sl   20:44   0:00    /usr/libexec/goa-daemon
+quitevi+ 3825  3220   3850 0 5    0.0  0.3  546692 24684 ?        Sl   20:44   0:00    /usr/libexec/goa-daemon
+quitevi+ 3838  3220   3838 0 4    0.0  0.1  309800 6792  ?        Ssl  20:44   0:00    /usr/libexec/gvfs-mtp-volume-monitor
+quitevi+ 3838  3220   3843 0 4    0.0  0.1  309800 6792  ?        Ssl  20:44   0:00    /usr/libexec/gvfs-mtp-volume-monitor
+quitevi+ 3838  3220   3845 0 4    0.0  0.1  309800 6792  ?        Ssl  20:44   0:00    /usr/libexec/gvfs-mtp-volume-monitor
+quitevi+ 3838  3220   3848 0 4    0.0  0.1  309800 6792  ?        Ssl  20:44   0:00    /usr/libexec/gvfs-mtp-volume-monitor
+quitevi+ 3841  3220   3841 0 10   0.0  0.3  890744 24900 ?        Ssl  20:44   0:00    /usr/libexec/evolution-calendar-factory
+quitevi+ 3841  3220   3859 0 10   0.0  0.3  890744 24900 ?        Ssl  20:44   0:00    /usr/libexec/evolution-calendar-factory
+quitevi+ 3841  3220   3861 0 10   0.0  0.3  890744 24900 ?        Ssl  20:44   0:00    /usr/libexec/evolution-calendar-factory
+quitevi+ 3841  3220   3862 0 10   0.0  0.3  890744 24900 ?        Ssl  20:44   0:00    /usr/libexec/evolution-calendar-factory
+quitevi+ 3841  3220   3875 0 10   0.0  0.3  890744 24900 ?        Ssl  20:44   0:00    /usr/libexec/evolution-calendar-factory
+quitevi+ 3841  3220   3876 0 10   0.0  0.3  890744 24900 ?        Ssl  20:44   0:00    /usr/libexec/evolution-calendar-factory
+quitevi+ 3841  3220   3877 0 10   0.0  0.3  890744 24900 ?        Ssl  20:44   0:00    /usr/libexec/evolution-calendar-factory
+quitevi+ 3841  3220   3882 0 10   0.0  0.3  890744 24900 ?        Ssl  20:44   0:00    /usr/libexec/evolution-calendar-factory
+quitevi+ 3841  3220   3883 0 10   0.0  0.3  890744 24900 ?        Ssl  20:44   0:00    /usr/libexec/evolution-calendar-factory
+quitevi+ 3841  3220   3887 0 10   0.0  0.3  890744 24900 ?        Ssl  20:44   0:00    /usr/libexec/evolution-calendar-factory
+quitevi+ 3853  3220   3853 0 4    0.0  0.1  462864 9640  ?        Sl   20:44   0:00    /usr/libexec/goa-identity-service
+quitevi+ 3853  3220   3855 0 4    0.0  0.1  462864 9640  ?        Sl   20:44   0:00    /usr/libexec/goa-identity-service
+quitevi+ 3853  3220   3856 0 4    0.0  0.1  462864 9640  ?        Sl   20:44   0:00    /usr/libexec/goa-identity-service
+quitevi+ 3853  3220   3858 0 4    0.0  0.1  462864 9640  ?        Sl   20:44   0:00    /usr/libexec/goa-identity-service
+quitevi+ 3854  3220   3854 0 4    0.0  0.1  310768 7240  ?        Ssl  20:44   0:00    /usr/libexec/gvfs-gphoto2-volume-monitor
+quitevi+ 3854  3220   3864 0 4    0.0  0.1  310768 7240  ?        Ssl  20:44   0:00    /usr/libexec/gvfs-gphoto2-volume-monitor
+quitevi+ 3854  3220   3865 0 4    0.0  0.1  310768 7240  ?        Ssl  20:44   0:00    /usr/libexec/gvfs-gphoto2-volume-monitor
+quitevi+ 3854  3220   3867 0 4    0.0  0.1  310768 7240  ?        Ssl  20:44   0:00    /usr/libexec/gvfs-gphoto2-volume-monitor
+quitevi+ 3868  3220   3868 0 5    0.0  0.1  389388 8272  ?        Ssl  20:44   0:00    /usr/libexec/gvfs-afc-volume-monitor
+quitevi+ 3868  3220   3869 0 5    0.0  0.1  389388 8272  ?        Ssl  20:44   0:00    /usr/libexec/gvfs-afc-volume-monitor
+quitevi+ 3868  3220   3870 0 5    0.0  0.1  389388 8272  ?        Ssl  20:44   0:00    /usr/libexec/gvfs-afc-volume-monitor
+quitevi+ 3868  3220   3871 0 5    0.0  0.1  389388 8272  ?        Ssl  20:44   0:00    /usr/libexec/gvfs-afc-volume-monitor
+quitevi+ 3868  3220   3873 0 5    0.0  0.1  389388 8272  ?        Ssl  20:44   0:00    /usr/libexec/gvfs-afc-volume-monitor
+quitevi+ 3874  3220   3874 0 4    0.0  0.1  309780 6668  ?        Ssl  20:44   0:00    /usr/libexec/gvfs-goa-volume-monitor
+quitevi+ 3874  3220   3878 0 4    0.0  0.1  309780 6668  ?        Ssl  20:44   0:00    /usr/libexec/gvfs-goa-volume-monitor
+quitevi+ 3874  3220   3879 0 4    0.0  0.1  309780 6668  ?        Ssl  20:44   0:00    /usr/libexec/gvfs-goa-volume-monitor
+quitevi+ 3874  3220   3881 0 4    0.0  0.1  309780 6668  ?        Ssl  20:44   0:00    /usr/libexec/gvfs-goa-volume-monitor
+quitevi+ 3885  3220   3885 0 7    0.0  0.4  825464 30940 ?        Ssl  20:44   0:00    /usr/libexec/evolution-addressbook-factory
+quitevi+ 3885  3220   3889 0 7    0.0  0.4  825464 30940 ?        Ssl  20:44   0:00    /usr/libexec/evolution-addressbook-factory
+quitevi+ 3885  3220   3890 0 7    0.0  0.4  825464 30940 ?        Ssl  20:44   0:00    /usr/libexec/evolution-addressbook-factory
+quitevi+ 3885  3220   3894 0 7    0.0  0.4  825464 30940 ?        Ssl  20:44   0:00    /usr/libexec/evolution-addressbook-factory
+quitevi+ 3885  3220   3896 0 7    0.0  0.4  825464 30940 ?        Ssl  20:44   0:00    /usr/libexec/evolution-addressbook-factory
+quitevi+ 3885  3220   3897 0 7    0.0  0.4  825464 30940 ?        Ssl  20:44   0:00    /usr/libexec/evolution-addressbook-factory
+quitevi+ 3885  3220   3899 0 7    0.0  0.4  825464 30940 ?        Ssl  20:44   0:00    /usr/libexec/evolution-addressbook-factory
+quitevi+ 3888  3487   3888 0 1    0.0  1.0  245156 68968 ?        S    20:44   0:00    /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.M8L1K3 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients
+quitevi+ 3921  3220   3921 0 4    0.0  0.0  230248 6244  ?        Ssl  20:44   0:00    /usr/libexec/dconf-service
+quitevi+ 3921  3220   3922 0 4    0.0  0.0  230248 6244  ?        Ssl  20:44   0:00    /usr/libexec/dconf-service
+quitevi+ 3921  3220   3923 0 4    0.0  0.0  230248 6244  ?        Ssl  20:44   0:00    /usr/libexec/dconf-service
+quitevi+ 3921  3220   3924 0 4    0.0  0.0  230248 6244  ?        Ssl  20:44   0:00    /usr/libexec/dconf-service
+quitevi+ 3927  3600   3927 0 4    0.0  0.1  236776 7628  ?        Sl   20:44   0:00    /usr/libexec/ibus-engine-simple
+quitevi+ 3927  3600   3930 0 4    0.0  0.1  236776 7628  ?        Sl   20:44   0:00    /usr/libexec/ibus-engine-simple
+quitevi+ 3927  3600   3931 0 4    0.0  0.1  236776 7628  ?        Sl   20:44   0:00    /usr/libexec/ibus-engine-simple
+quitevi+ 3927  3600   3932 0 4    0.0  0.1  236776 7628  ?        Sl   20:44   0:00    /usr/libexec/ibus-engine-simple
+quitevi+ 3951  3220   3951 0 1    0.0  0.1  39140  12076 ?        Ss   20:44   0:00    /snap/snapd-desktop-integration/343/usr/bin/snapd-desktop-integration
+quitevi+ 3974  3220   3974 3 19   6.0  6.0  2377224 377572 ?        Sl   20:44   0:19    /usr/bin/nautilus --gapplication-service
+quitevi+ 3974  3220   4005 0 19   6.0  6.0  2377224 377572 ?        Sl   20:44   0:19    /usr/bin/nautilus --gapplication-service
+quitevi+ 3974  3220   4006 0 19   6.0  6.0  2377224 377572 ?        Sl   20:44   0:19    /usr/bin/nautilus --gapplication-service
+quitevi+ 3974  3220   4008 0 19   6.0  6.0  2377224 377572 ?        Sl   20:44   0:19    /usr/bin/nautilus --gapplication-service
+quitevi+ 3974  3220   4013 0 19   6.0  6.0  2377224 377572 ?        Sl   20:44   0:19    /usr/bin/nautilus --gapplication-service
+quitevi+ 3974  3220   4024 0 19   6.0  6.0  2377224 377572 ?        Sl   20:44   0:19    /usr/bin/nautilus --gapplication-service
+quitevi+ 3974  3220   4026 0 19   6.0  6.0  2377224 377572 ?        Sl   20:44   0:19    /usr/bin/nautilus --gapplication-service
+quitevi+ 3974  3220   4290 0 19   6.0  6.0  2377224 377572 ?        Sl   20:44   0:19    /usr/bin/nautilus --gapplication-service
+quitevi+ 3974  3220   4291 0 19   6.0  6.0  2377224 377572 ?        Sl   20:44   0:19    /usr/bin/nautilus --gapplication-service
+quitevi+ 3974  3220   4292 0 19   6.0  6.0  2377224 377572 ?        Sl   20:44   0:19    /usr/bin/nautilus --gapplication-service
+quitevi+ 3974  3220   4293 0 19   6.0  6.0  2377224 377572 ?        Sl   20:44   0:19    /usr/bin/nautilus --gapplication-service
+quitevi+ 3974  3220   4294 0 19   6.0  6.0  2377224 377572 ?        Sl   20:44   0:19    /usr/bin/nautilus --gapplication-service
+quitevi+ 3974  3220   4295 0 19   6.0  6.0  2377224 377572 ?        Sl   20:44   0:19    /usr/bin/nautilus --gapplication-service
+quitevi+ 3974  3220   4296 0 19   6.0  6.0  2377224 377572 ?        Sl   20:44   0:19    /usr/bin/nautilus --gapplication-service
+quitevi+ 3974  3220   4297 0 19   6.0  6.0  2377224 377572 ?        Sl   20:44   0:19    /usr/bin/nautilus --gapplication-service
+quitevi+ 3974  3220   4298 0 19   6.0  6.0  2377224 377572 ?        Sl   20:44   0:19    /usr/bin/nautilus --gapplication-service
+quitevi+ 3974  3220   4299 0 19   6.0  6.0  2377224 377572 ?        Sl   20:44   0:19    /usr/bin/nautilus --gapplication-service
+quitevi+ 3974  3220   4300 0 19   6.0  6.0  2377224 377572 ?        Sl   20:44   0:19    /usr/bin/nautilus --gapplication-service
+quitevi+ 3974  3220   5947 0 19   6.0  6.0  2377224 377572 ?        Sl   20:44   0:19    /usr/bin/nautilus --gapplication-service
+quitevi+ 3975  3220   3975 0 4    0.0  0.1  236348 6744  ?        Ssl  20:44   0:00    /usr/libexec/gvfsd-metadata
+quitevi+ 3975  3220   3987 0 4    0.0  0.1  236348 6744  ?        Ssl  20:44   0:00    /usr/libexec/gvfsd-metadata
+quitevi+ 3975  3220   3988 0 4    0.0  0.1  236348 6744  ?        Ssl  20:44   0:00    /usr/libexec/gvfsd-metadata
+quitevi+ 3975  3220   3991 0 4    0.0  0.1  236348 6744  ?        Ssl  20:44   0:00    /usr/libexec/gvfsd-metadata
+quitevi+ 3976  3425   3976 0 5    0.0  0.1  609448 9416  ?        Sl   20:44   0:00    /usr/libexec/gvfsd-trash --spawner :1.20 /org/gtk/gvfs/exec_spaw/0
+quitevi+ 3976  3425   3981 0 5    0.0  0.1  609448 9416  ?        Sl   20:44   0:00    /usr/libexec/gvfsd-trash --spawner :1.20 /org/gtk/gvfs/exec_spaw/0
+quitevi+ 3976  3425   3982 0 5    0.0  0.1  609448 9416  ?        Sl   20:44   0:00    /usr/libexec/gvfsd-trash --spawner :1.20 /org/gtk/gvfs/exec_spaw/0
+quitevi+ 3976  3425   3984 0 5    0.0  0.1  609448 9416  ?        Sl   20:44   0:00    /usr/libexec/gvfsd-trash --spawner :1.20 /org/gtk/gvfs/exec_spaw/0
+quitevi+ 3976  3425   3994 0 5    0.0  0.1  609448 9416  ?        Sl   20:44   0:00    /usr/libexec/gvfsd-trash --spawner :1.20 /org/gtk/gvfs/exec_spaw/0
+quitevi+ 4027  3951   4027 0 5    0.0  0.4  429444 30872 ?        Sl   20:44   0:00    /snap/snapd-desktop-integration/343/usr/bin/snapd-desktop-integration
+quitevi+ 4027  3951   4042 0 5    0.0  0.4  429444 30872 ?        Sl   20:44   0:00    /snap/snapd-desktop-integration/343/usr/bin/snapd-desktop-integration
+quitevi+ 4027  3951   4043 0 5    0.0  0.4  429444 30872 ?        Sl   20:44   0:00    /snap/snapd-desktop-integration/343/usr/bin/snapd-desktop-integration
+quitevi+ 4027  3951   4044 0 5    0.0  0.4  429444 30872 ?        Sl   20:44   0:00    /snap/snapd-desktop-integration/343/usr/bin/snapd-desktop-integration
+quitevi+ 4027  3951   4047 0 5    0.0  0.4  429444 30872 ?        Sl   20:44   0:00    /snap/snapd-desktop-integration/343/usr/bin/snapd-desktop-integration
+root     4064  2      4064 0 1    0.0  0.0  0      0     ?        I<   20:44   0:00    [kworker/u29:1]
+quitevi+ 4086  3220   4086 0 7    0.0  0.2  701636 15156 ?        Ssl  20:44   0:00    /usr/libexec/xdg-desktop-portal
+quitevi+ 4086  3220   4090 0 7    0.0  0.2  701636 15156 ?        Ssl  20:44   0:00    /usr/libexec/xdg-desktop-portal
+quitevi+ 4086  3220   4092 0 7    0.0  0.2  701636 15156 ?        Ssl  20:44   0:00    /usr/libexec/xdg-desktop-portal
+quitevi+ 4086  3220   4093 0 7    0.0  0.2  701636 15156 ?        Ssl  20:44   0:00    /usr/libexec/xdg-desktop-portal
+quitevi+ 4086  3220   4241 0 7    0.0  0.2  701636 15156 ?        Ssl  20:44   0:00    /usr/libexec/xdg-desktop-portal
+quitevi+ 4086  3220   4266 0 7    0.0  0.2  701636 15156 ?        Ssl  20:44   0:00    /usr/libexec/xdg-desktop-portal
+quitevi+ 4086  3220   4267 0 7    0.0  0.2  701636 15156 ?        Ssl  20:44   0:00    /usr/libexec/xdg-desktop-portal
+quitevi+ 4088  3220   4088 0 8    0.2  0.4  882344 29648 ?        SNsl 20:44   0:00    /usr/libexec/tracker-miner-fs-3
+quitevi+ 4088  3220   4095 0 8    0.2  0.4  882344 29648 ?        SNsl 20:44   0:00    /usr/libexec/tracker-miner-fs-3
+quitevi+ 4088  3220   4096 0 8    0.2  0.4  882344 29648 ?        SNsl 20:44   0:00    /usr/libexec/tracker-miner-fs-3
+quitevi+ 4088  3220   4099 0 8    0.2  0.4  882344 29648 ?        SNsl 20:44   0:00    /usr/libexec/tracker-miner-fs-3
+quitevi+ 4088  3220   4107 0 8    0.2  0.4  882344 29648 ?        SNsl 20:44   0:00    /usr/libexec/tracker-miner-fs-3
+quitevi+ 4088  3220   4109 0 8    0.2  0.4  882344 29648 ?        SNsl 20:44   0:00    /usr/libexec/tracker-miner-fs-3
+quitevi+ 4088  3220   4182 0 8    0.2  0.4  882344 29648 ?        SNsl 20:44   0:00    /usr/libexec/tracker-miner-fs-3
+quitevi+ 4088  3220   4185 0 8    0.2  0.4  882344 29648 ?        SNsl 20:44   0:00    /usr/libexec/tracker-miner-fs-3
+quitevi+ 4103  3220   4103 0 6    0.1  0.6  556704 41440 ?        Ssl  20:44   0:00    /usr/libexec/xdg-desktop-portal-gnome
+quitevi+ 4103  3220   4104 0 6    0.1  0.6  556704 41440 ?        Ssl  20:44   0:00    /usr/libexec/xdg-desktop-portal-gnome
+quitevi+ 4103  3220   4105 0 6    0.1  0.6  556704 41440 ?        Ssl  20:44   0:00    /usr/libexec/xdg-desktop-portal-gnome
+quitevi+ 4103  3220   4106 0 6    0.1  0.6  556704 41440 ?        Ssl  20:44   0:00    /usr/libexec/xdg-desktop-portal-gnome
+quitevi+ 4103  3220   4119 0 6    0.1  0.6  556704 41440 ?        Ssl  20:44   0:00    /usr/libexec/xdg-desktop-portal-gnome
+quitevi+ 4103  3220   4166 0 6    0.1  0.6  556704 41440 ?        Ssl  20:44   0:00    /usr/libexec/xdg-desktop-portal-gnome
+quitevi+ 4111  3220   4111 0 5    0.0  1.3  642312 84852 ?        Ssl  20:44   0:00    /usr/libexec/gsd-xsettings
+quitevi+ 4111  3220   4148 0 5    0.0  1.3  642312 84852 ?        Ssl  20:44   0:00    /usr/libexec/gsd-xsettings
+quitevi+ 4111  3220   4149 0 5    0.0  1.3  642312 84852 ?        Ssl  20:44   0:00    /usr/libexec/gsd-xsettings
+quitevi+ 4111  3220   4150 0 5    0.0  1.3  642312 84852 ?        Ssl  20:44   0:00    /usr/libexec/gsd-xsettings
+quitevi+ 4111  3220   4153 0 5    0.0  1.3  642312 84852 ?        Ssl  20:44   0:00    /usr/libexec/gsd-xsettings
+quitevi+ 4112  3487   4112 0 11   0.4  1.0  3012304 67000 ?        Sl   20:44   0:01    gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+quitevi+ 4112  3487   4117 0 11   0.4  1.0  3012304 67000 ?        Sl   20:44   0:01    gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+quitevi+ 4112  3487   4118 0 11   0.4  1.0  3012304 67000 ?        Sl   20:44   0:01    gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+quitevi+ 4112  3487   4122 0 11   0.4  1.0  3012304 67000 ?        Sl   20:44   0:01    gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+quitevi+ 4112  3487   4141 0 11   0.4  1.0  3012304 67000 ?        Sl   20:44   0:01    gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+quitevi+ 4112  3487   4142 0 11   0.4  1.0  3012304 67000 ?        Sl   20:44   0:01    gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+quitevi+ 4112  3487   4143 0 11   0.4  1.0  3012304 67000 ?        Sl   20:44   0:01    gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+quitevi+ 4112  3487   4144 0 11   0.4  1.0  3012304 67000 ?        Sl   20:44   0:01    gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+quitevi+ 4112  3487   4145 0 11   0.4  1.0  3012304 67000 ?        Sl   20:44   0:01    gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+quitevi+ 4112  3487   4174 0 11   0.4  1.0  3012304 67000 ?        Sl   20:44   0:01    gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+quitevi+ 4112  3487   4265 0 11   0.4  1.0  3012304 67000 ?        Sl   20:44   0:01    gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+quitevi+ 4152  3220   4152 0 9    0.0  0.4  2533640 27324 ?        Sl   20:44   0:00    /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+quitevi+ 4152  3220   4156 0 9    0.0  0.4  2533640 27324 ?        Sl   20:44   0:00    /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+quitevi+ 4152  3220   4157 0 9    0.0  0.4  2533640 27324 ?        Sl   20:44   0:00    /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+quitevi+ 4152  3220   4158 0 9    0.0  0.4  2533640 27324 ?        Sl   20:44   0:00    /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+quitevi+ 4152  3220   4159 0 9    0.0  0.4  2533640 27324 ?        Sl   20:44   0:00    /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+quitevi+ 4152  3220   4160 0 9    0.0  0.4  2533640 27324 ?        Sl   20:44   0:00    /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+quitevi+ 4152  3220   4161 0 9    0.0  0.4  2533640 27324 ?        Sl   20:44   0:00    /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+quitevi+ 4152  3220   4162 0 9    0.0  0.4  2533640 27324 ?        Sl   20:44   0:00    /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+quitevi+ 4152  3220   4163 0 9    0.0  0.4  2533640 27324 ?        Sl   20:44   0:00    /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+quitevi+ 4186  3220   4186 0 4    0.0  0.4  267248 25116 ?        Sl   20:44   0:00    /usr/libexec/ibus-x11
+quitevi+ 4186  3220   4189 0 4    0.0  0.4  267248 25116 ?        Sl   20:44   0:00    /usr/libexec/ibus-x11
+quitevi+ 4186  3220   4190 0 4    0.0  0.4  267248 25116 ?        Sl   20:44   0:00    /usr/libexec/ibus-x11
+quitevi+ 4186  3220   4192 0 4    0.0  0.4  267248 25116 ?        Sl   20:44   0:00    /usr/libexec/ibus-x11
+quitevi+ 4195  3487   4195 0 17   0.0  1.6  1562120 104148 ?        Sl   20:44   0:00    /usr/libexec/mutter-x11-frames
+quitevi+ 4195  3487   4212 0 17   0.0  1.6  1562120 104148 ?        Sl   20:44   0:00    /usr/libexec/mutter-x11-frames
+quitevi+ 4195  3487   4230 0 17   0.0  1.6  1562120 104148 ?        Sl   20:44   0:00    /usr/libexec/mutter-x11-frames
+quitevi+ 4195  3487   4231 0 17   0.0  1.6  1562120 104148 ?        Sl   20:44   0:00    /usr/libexec/mutter-x11-frames
+quitevi+ 4195  3487   4232 0 17   0.0  1.6  1562120 104148 ?        Sl   20:44   0:00    /usr/libexec/mutter-x11-frames
+quitevi+ 4195  3487   4233 0 17   0.0  1.6  1562120 104148 ?        Sl   20:44   0:00    /usr/libexec/mutter-x11-frames
+quitevi+ 4195  3487   4234 0 17   0.0  1.6  1562120 104148 ?        Sl   20:44   0:00    /usr/libexec/mutter-x11-frames
+quitevi+ 4195  3487   4235 0 17   0.0  1.6  1562120 104148 ?        Sl   20:44   0:00    /usr/libexec/mutter-x11-frames
+quitevi+ 4195  3487   4236 0 17   0.0  1.6  1562120 104148 ?        Sl   20:44   0:00    /usr/libexec/mutter-x11-frames
+quitevi+ 4195  3487   4237 0 17   0.0  1.6  1562120 104148 ?        Sl   20:44   0:00    /usr/libexec/mutter-x11-frames
+quitevi+ 4195  3487   4238 0 17   0.0  1.6  1562120 104148 ?        Sl   20:44   0:00    /usr/libexec/mutter-x11-frames
+quitevi+ 4195  3487   4239 0 17   0.0  1.6  1562120 104148 ?        Sl   20:44   0:00    /usr/libexec/mutter-x11-frames
+quitevi+ 4195  3487   4240 0 17   0.0  1.6  1562120 104148 ?        Sl   20:44   0:00    /usr/libexec/mutter-x11-frames
+quitevi+ 4195  3487   4242 0 17   0.0  1.6  1562120 104148 ?        Sl   20:44   0:00    /usr/libexec/mutter-x11-frames
+quitevi+ 4195  3487   4243 0 17   0.0  1.6  1562120 104148 ?        Sl   20:44   0:00    /usr/libexec/mutter-x11-frames
+quitevi+ 4195  3487   4244 0 17   0.0  1.6  1562120 104148 ?        Sl   20:44   0:00    /usr/libexec/mutter-x11-frames
+quitevi+ 4195  3487   4246 0 17   0.0  1.6  1562120 104148 ?        Sl   20:44   0:00    /usr/libexec/mutter-x11-frames
+quitevi+ 4198  3220   4198 0 1    0.0  0.0  19496  1596  ?        S    20:44   0:00    /usr/bin/VBoxClient --clipboard
+quitevi+ 4199  4198   4199 0 4    0.0  0.0  218304 4576  ?        Sl   20:44   0:00    /usr/bin/VBoxClient --clipboard
+quitevi+ 4199  4198   4201 0 4    0.0  0.0  218304 4576  ?        Sl   20:44   0:00    /usr/bin/VBoxClient --clipboard
+quitevi+ 4199  4198   4202 0 4    0.0  0.0  218304 4576  ?        Sl   20:44   0:00    /usr/bin/VBoxClient --clipboard
+quitevi+ 4199  4198   4203 0 4    0.0  0.0  218304 4576  ?        Sl   20:44   0:00    /usr/bin/VBoxClient --clipboard
+quitevi+ 4224  3220   4224 0 1    0.0  0.0  19496  1584  ?        S    20:44   0:00    /usr/bin/VBoxClient --vmsvga-session
+quitevi+ 4225  4224   4225 0 3    0.0  0.0  151600 2516  ?        Sl   20:44   0:00    /usr/bin/VBoxClient --vmsvga-session
+quitevi+ 4225  4224   4228 0 3    0.0  0.0  151600 2516  ?        Sl   20:44   0:00    /usr/bin/VBoxClient --vmsvga-session
+quitevi+ 4225  4224   4229 0 3    0.0  0.0  151600 2516  ?        Sl   20:44   0:00    /usr/bin/VBoxClient --vmsvga-session
+quitevi+ 4245  3220   4245 0 5    0.0  0.4  417844 26936 ?        Ssl  20:44   0:00    /usr/libexec/xdg-desktop-portal-gtk
+quitevi+ 4245  3220   4248 0 5    0.0  0.4  417844 26936 ?        Ssl  20:44   0:00    /usr/libexec/xdg-desktop-portal-gtk
+quitevi+ 4245  3220   4249 0 5    0.0  0.4  417844 26936 ?        Ssl  20:44   0:00    /usr/libexec/xdg-desktop-portal-gtk
+quitevi+ 4245  3220   4251 0 5    0.0  0.4  417844 26936 ?        Ssl  20:44   0:00    /usr/libexec/xdg-desktop-portal-gtk
+quitevi+ 4245  3220   4252 0 5    0.0  0.4  417844 26936 ?        Ssl  20:44   0:00    /usr/libexec/xdg-desktop-portal-gtk
+quitevi+ 4301  3487   4301 11 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4377 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4381 1 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4382 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4383 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4384 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4403 1 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4405 1 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4406 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4407 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4408 1 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4409 1 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4419 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4420 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4421 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4422 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4427 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4429 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4430 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4432 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4433 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4434 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4435 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4436 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4437 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4440 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4441 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4453 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4454 5 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4455 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4456 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4457 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4458 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4459 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4460 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4461 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4462 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4463 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4464 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4465 2 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4466 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4467 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4468 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4469 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4496 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4514 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4540 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4543 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4545 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4546 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4547 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4561 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4562 1 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4563 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4564 2 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4572 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4573 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4574 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4575 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4579 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4580 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4581 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4753 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4754 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4755 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4760 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4776 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4777 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4917 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4926 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4931 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4932 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4933 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4935 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4944 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4962 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   4963 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   5107 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   5108 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   5109 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   5111 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   5125 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   5130 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   5132 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   5304 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   5305 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   5312 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   5327 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   5328 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   5329 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   5330 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   5356 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   5357 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   5377 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   5486 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   5949 1 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   5950 1 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4301  3487   5951 0 98   35.5 8.0  3357720 507300 ?        Sl   20:44   1:52    /snap/firefox/7766/usr/lib/firefox/firefox
+quitevi+ 4332  3425   4332 0 4    0.0  0.1  388368 8884  ?        Sl   20:44   0:00    /usr/libexec/gvfsd-recent --spawner :1.20 /org/gtk/gvfs/exec_spaw/1
+quitevi+ 4332  3425   4333 0 4    0.0  0.1  388368 8884  ?        Sl   20:44   0:00    /usr/libexec/gvfsd-recent --spawner :1.20 /org/gtk/gvfs/exec_spaw/1
+quitevi+ 4332  3425   4334 0 4    0.0  0.1  388368 8884  ?        Sl   20:44   0:00    /usr/libexec/gvfsd-recent --spawner :1.20 /org/gtk/gvfs/exec_spaw/1
+quitevi+ 4332  3425   4335 0 4    0.0  0.1  388368 8884  ?        Sl   20:44   0:00    /usr/libexec/gvfsd-recent --spawner :1.20 /org/gtk/gvfs/exec_spaw/1
+quitevi+ 4379  3220   4379 0 2    0.0  0.0  149132 2992  ?        Sl   20:44   0:00    /snap/firefox/7766/usr/lib/firefox/crashhelper 4301 9 /tmp/ 11
+quitevi+ 4379  3220   4380 0 2    0.0  0.0  149132 2992  ?        Sl   20:44   0:00    /snap/firefox/7766/usr/lib/firefox/crashhelper 4301 9 /tmp/ 11
+quitevi+ 4470  4301   4470 0 1    0.0  0.5  434932 35880 ?        S    20:44   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -ipcHandle 0 -signalPipe 1 -initialChannelId {3f8ff096-7de3-4548-ab3f-f409120b6ca5} -parentPid 4301 -greomni /snap/firefox/7766/usr/lib/firefox/omni.ja -appomni /snap/firefox/7766/usr/lib/firefox/browse‘
+quitevi+ 4497  4470   4497 0 6    0.0  0.6  449372 40828 ?        Sl   20:44   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -parentBuildID 20260204004611 -prefsHandle 0:37806 -prefMapHandle 1:277289 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {0bf2e54f-f7b6-4a0d-85c6-e1e25b78f77c} -parentPid 4301 -crash¹
+quitevi+ 4497  4470   4500 0 6    0.0  0.6  449372 40828 ?        Sl   20:44   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -parentBuildID 20260204004611 -prefsHandle 0:37806 -prefMapHandle 1:277289 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {0bf2e54f-f7b6-4a0d-85c6-e1e25b78f77c} -parentPid 4301 -crash¹
+quitevi+ 4497  4470   4504 0 6    0.0  0.6  449372 40828 ?        Sl   20:44   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -parentBuildID 20260204004611 -prefsHandle 0:37806 -prefMapHandle 1:277289 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {0bf2e54f-f7b6-4a0d-85c6-e1e25b78f77c} -parentPid 4301 -crash¹
+quitevi+ 4497  4470   4508 0 6    0.0  0.6  449372 40828 ?        Sl   20:44   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -parentBuildID 20260204004611 -prefsHandle 0:37806 -prefMapHandle 1:277289 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {0bf2e54f-f7b6-4a0d-85c6-e1e25b78f77c} -parentPid 4301 -crash¹
+quitevi+ 4497  4470   4515 0 6    0.0  0.6  449372 40828 ?        Sl   20:44   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -parentBuildID 20260204004611 -prefsHandle 0:37806 -prefMapHandle 1:277289 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {0bf2e54f-f7b6-4a0d-85c6-e1e25b78f77c} -parentPid 4301 -crash¹
+quitevi+ 4497  4470   5749 0 6    0.0  0.6  449372 40828 ?        Sl   20:44   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -parentBuildID 20260204004611 -prefsHandle 0:37806 -prefMapHandle 1:277289 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {0bf2e54f-f7b6-4a0d-85c6-e1e25b78f77c} -parentPid 4301 -crash¹
+quitevi+ 4537  4470   4537 1 22   2.0  2.6  2667432 164944 ?        Sl   20:44   0:06    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:37940 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {6b1e4f95-b81e-4291-a2c0Ä
+quitevi+ 4537  4470   4541 0 22   2.0  2.6  2667432 164944 ?        Sl   20:44   0:06    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:37940 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {6b1e4f95-b81e-4291-a2c0Ä
+quitevi+ 4537  4470   4544 0 22   2.0  2.6  2667432 164944 ?        Sl   20:44   0:06    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:37940 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {6b1e4f95-b81e-4291-a2c0Ä
+quitevi+ 4537  4470   4554 0 22   2.0  2.6  2667432 164944 ?        Sl   20:44   0:06    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:37940 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {6b1e4f95-b81e-4291-a2c0Ä
+quitevi+ 4537  4470   4555 0 22   2.0  2.6  2667432 164944 ?        Sl   20:44   0:06    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:37940 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {6b1e4f95-b81e-4291-a2c0Ä
+quitevi+ 4537  4470   4556 0 22   2.0  2.6  2667432 164944 ?        Sl   20:44   0:06    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:37940 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {6b1e4f95-b81e-4291-a2c0Ä
+quitevi+ 4537  4470   4557 0 22   2.0  2.6  2667432 164944 ?        Sl   20:44   0:06    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:37940 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {6b1e4f95-b81e-4291-a2c0Ä
+quitevi+ 4537  4470   4558 0 22   2.0  2.6  2667432 164944 ?        Sl   20:44   0:06    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:37940 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {6b1e4f95-b81e-4291-a2c0Ä
+quitevi+ 4537  4470   4560 0 22   2.0  2.6  2667432 164944 ?        Sl   20:44   0:06    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:37940 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {6b1e4f95-b81e-4291-a2c0Ä
+quitevi+ 4537  4470   4566 0 22   2.0  2.6  2667432 164944 ?        Sl   20:44   0:06    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:37940 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {6b1e4f95-b81e-4291-a2c0Ä
+quitevi+ 4537  4470   4567 0 22   2.0  2.6  2667432 164944 ?        Sl   20:44   0:06    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:37940 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {6b1e4f95-b81e-4291-a2c0Ä
+quitevi+ 4537  4470   4568 0 22   2.0  2.6  2667432 164944 ?        Sl   20:44   0:06    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:37940 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {6b1e4f95-b81e-4291-a2c0Ä
+quitevi+ 4537  4470   4569 0 22   2.0  2.6  2667432 164944 ?        Sl   20:44   0:06    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:37940 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {6b1e4f95-b81e-4291-a2c0Ä
+quitevi+ 4537  4470   4570 0 22   2.0  2.6  2667432 164944 ?        Sl   20:44   0:06    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:37940 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {6b1e4f95-b81e-4291-a2c0Ä
+quitevi+ 4537  4470   4571 0 22   2.0  2.6  2667432 164944 ?        Sl   20:44   0:06    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:37940 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {6b1e4f95-b81e-4291-a2c0Ä
+quitevi+ 4537  4470   4748 0 22   2.0  2.6  2667432 164944 ?        Sl   20:44   0:06    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:37940 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {6b1e4f95-b81e-4291-a2c0Ä
+quitevi+ 4537  4470   4749 0 22   2.0  2.6  2667432 164944 ?        Sl   20:44   0:06    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:37940 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {6b1e4f95-b81e-4291-a2c0Ä
+quitevi+ 4537  4470   4750 0 22   2.0  2.6  2667432 164944 ?        Sl   20:44   0:06    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:37940 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {6b1e4f95-b81e-4291-a2c0Ä
+quitevi+ 4537  4470   4751 0 22   2.0  2.6  2667432 164944 ?        Sl   20:44   0:06    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:37940 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {6b1e4f95-b81e-4291-a2c0Ä
+quitevi+ 4537  4470   4752 0 22   2.0  2.6  2667432 164944 ?        Sl   20:44   0:06    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:37940 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {6b1e4f95-b81e-4291-a2c0Ä
+quitevi+ 4537  4470   4934 0 22   2.0  2.6  2667432 164944 ?        Sl   20:44   0:06    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:37940 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {6b1e4f95-b81e-4291-a2c0Ä
+quitevi+ 4537  4470   5374 0 22   2.0  2.6  2667432 164944 ?        Sl   20:44   0:06    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:37940 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {6b1e4f95-b81e-4291-a2c0Ä
+quitevi+ 4548  4470   4548 0 5    0.1  0.7  582120 47568 ?        Sl   20:44   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -parentBuildID 20260204004611 -prefsHandle 0:37940 -prefMapHandle 1:277289 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {b0b2f393-4741-4dbb-b695-cd8857a7a900} -parentPid 4301 -crashì
+quitevi+ 4548  4470   4551 0 5    0.1  0.7  582120 47568 ?        Sl   20:44   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -parentBuildID 20260204004611 -prefsHandle 0:37940 -prefMapHandle 1:277289 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {b0b2f393-4741-4dbb-b695-cd8857a7a900} -parentPid 4301 -crashì
+quitevi+ 4548  4470   4553 0 5    0.1  0.7  582120 47568 ?        Sl   20:44   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -parentBuildID 20260204004611 -prefsHandle 0:37940 -prefMapHandle 1:277289 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {b0b2f393-4741-4dbb-b695-cd8857a7a900} -parentPid 4301 -crashì
+quitevi+ 4548  4470   4583 0 5    0.1  0.7  582120 47568 ?        Sl   20:44   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -parentBuildID 20260204004611 -prefsHandle 0:37940 -prefMapHandle 1:277289 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {b0b2f393-4741-4dbb-b695-cd8857a7a900} -parentPid 4301 -crashì
+quitevi+ 4548  4470   5751 0 5    0.1  0.7  582120 47568 ?        Sl   20:44   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -parentBuildID 20260204004611 -prefsHandle 0:37940 -prefMapHandle 1:277289 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {b0b2f393-4741-4dbb-b695-cd8857a7a900} -parentPid 4301 -crashì
+quitevi+ 4588  3220   4588 0 9    0.0  0.4  1839736 25096 ?        Sl   20:44   0:00    /usr/bin/snap userd
+quitevi+ 4588  3220   4589 0 9    0.0  0.4  1839736 25096 ?        Sl   20:44   0:00    /usr/bin/snap userd
+quitevi+ 4588  3220   4590 0 9    0.0  0.4  1839736 25096 ?        Sl   20:44   0:00    /usr/bin/snap userd
+quitevi+ 4588  3220   4591 0 9    0.0  0.4  1839736 25096 ?        Sl   20:44   0:00    /usr/bin/snap userd
+quitevi+ 4588  3220   4592 0 9    0.0  0.4  1839736 25096 ?        Sl   20:44   0:00    /usr/bin/snap userd
+quitevi+ 4588  3220   4593 0 9    0.0  0.4  1839736 25096 ?        Sl   20:44   0:00    /usr/bin/snap userd
+quitevi+ 4588  3220   4594 0 9    0.0  0.4  1839736 25096 ?        Sl   20:44   0:00    /usr/bin/snap userd
+quitevi+ 4588  3220   4595 0 9    0.0  0.4  1839736 25096 ?        Sl   20:44   0:00    /usr/bin/snap userd
+quitevi+ 4588  3220   4596 0 9    0.0  0.4  1839736 25096 ?        Sl   20:44   0:00    /usr/bin/snap userd
+quitevi+ 4756  4470   4756 0 21   0.7  1.6  2614136 106624 ?        Sl   20:44   0:02    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:38046 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {3bfbeafd-338b-46f0-94a4ø
+quitevi+ 4756  4470   4759 0 21   0.7  1.6  2614136 106624 ?        Sl   20:44   0:02    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:38046 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {3bfbeafd-338b-46f0-94a4ø
+quitevi+ 4756  4470   4762 0 21   0.7  1.6  2614136 106624 ?        Sl   20:44   0:02    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:38046 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {3bfbeafd-338b-46f0-94a4ø
+quitevi+ 4756  4470   4763 0 21   0.7  1.6  2614136 106624 ?        Sl   20:44   0:02    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:38046 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {3bfbeafd-338b-46f0-94a4ø
+quitevi+ 4756  4470   4764 0 21   0.7  1.6  2614136 106624 ?        Sl   20:44   0:02    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:38046 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {3bfbeafd-338b-46f0-94a4ø
+quitevi+ 4756  4470   4765 0 21   0.7  1.6  2614136 106624 ?        Sl   20:44   0:02    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:38046 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {3bfbeafd-338b-46f0-94a4ø
+quitevi+ 4756  4470   4766 0 21   0.7  1.6  2614136 106624 ?        Sl   20:44   0:02    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:38046 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {3bfbeafd-338b-46f0-94a4ø
+quitevi+ 4756  4470   4767 0 21   0.7  1.6  2614136 106624 ?        Sl   20:44   0:02    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:38046 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {3bfbeafd-338b-46f0-94a4ø
+quitevi+ 4756  4470   4769 0 21   0.7  1.6  2614136 106624 ?        Sl   20:44   0:02    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:38046 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {3bfbeafd-338b-46f0-94a4ø
+quitevi+ 4756  4470   4770 0 21   0.7  1.6  2614136 106624 ?        Sl   20:44   0:02    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:38046 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {3bfbeafd-338b-46f0-94a4ø
+quitevi+ 4756  4470   4771 0 21   0.7  1.6  2614136 106624 ?        Sl   20:44   0:02    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:38046 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {3bfbeafd-338b-46f0-94a4ø
+quitevi+ 4756  4470   4772 0 21   0.7  1.6  2614136 106624 ?        Sl   20:44   0:02    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:38046 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {3bfbeafd-338b-46f0-94a4ø
+quitevi+ 4756  4470   4773 0 21   0.7  1.6  2614136 106624 ?        Sl   20:44   0:02    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:38046 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {3bfbeafd-338b-46f0-94a4ø
+quitevi+ 4756  4470   4774 0 21   0.7  1.6  2614136 106624 ?        Sl   20:44   0:02    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:38046 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {3bfbeafd-338b-46f0-94a4ø
+quitevi+ 4756  4470   4775 0 21   0.7  1.6  2614136 106624 ?        Sl   20:44   0:02    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:38046 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {3bfbeafd-338b-46f0-94a4ø
+quitevi+ 4756  4470   4919 0 21   0.7  1.6  2614136 106624 ?        Sl   20:44   0:02    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:38046 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {3bfbeafd-338b-46f0-94a4ø
+quitevi+ 4756  4470   4920 0 21   0.7  1.6  2614136 106624 ?        Sl   20:44   0:02    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:38046 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {3bfbeafd-338b-46f0-94a4ø
+quitevi+ 4756  4470   4921 0 21   0.7  1.6  2614136 106624 ?        Sl   20:44   0:02    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:38046 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {3bfbeafd-338b-46f0-94a4ø
+quitevi+ 4756  4470   4922 0 21   0.7  1.6  2614136 106624 ?        Sl   20:44   0:02    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:38046 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {3bfbeafd-338b-46f0-94a4ø
+quitevi+ 4756  4470   4923 0 21   0.7  1.6  2614136 106624 ?        Sl   20:44   0:02    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:38046 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {3bfbeafd-338b-46f0-94a4ø
+quitevi+ 4756  4470   4957 0 21   0.7  1.6  2614136 106624 ?        Sl   20:44   0:02    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:38046 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {3bfbeafd-338b-46f0-94a4ø
+quitevi+ 5112  4470   5112 0 5    0.0  0.5  448344 37432 ?        Sl   20:44   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -parentBuildID 20260204004611 -sandboxingKind 0 -prefsHandle 0:48989 -prefMapHandle 1:277289 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {236c5f09-5713-4d58-b255-95305789b396} -parþ
+quitevi+ 5112  4470   5115 0 5    0.0  0.5  448344 37432 ?        Sl   20:44   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -parentBuildID 20260204004611 -sandboxingKind 0 -prefsHandle 0:48989 -prefMapHandle 1:277289 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {236c5f09-5713-4d58-b255-95305789b396} -parþ
+quitevi+ 5112  4470   5117 0 5    0.0  0.5  448344 37432 ?        Sl   20:44   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -parentBuildID 20260204004611 -sandboxingKind 0 -prefsHandle 0:48989 -prefMapHandle 1:277289 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {236c5f09-5713-4d58-b255-95305789b396} -parþ
+quitevi+ 5112  4470   5133 0 5    0.0  0.5  448344 37432 ?        Sl   20:44   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -parentBuildID 20260204004611 -sandboxingKind 0 -prefsHandle 0:48989 -prefMapHandle 1:277289 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {236c5f09-5713-4d58-b255-95305789b396} -parþ
+quitevi+ 5112  4470   5750 0 5    0.0  0.5  448344 37432 ?        Sl   20:44   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -parentBuildID 20260204004611 -sandboxingKind 0 -prefsHandle 0:48989 -prefMapHandle 1:277289 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {236c5f09-5713-4d58-b255-95305789b396} -parþ
+quitevi+ 5118  4470   5118 10 24   16.6 5.5  2922464 346248 ?        Sl   20:44   0:51    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {54f7a816-cf4f-4e6b-b1ce
+quitevi+ 5118  4470   5121 0 24   16.6 5.5  2922464 346248 ?        Sl   20:44   0:51    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {54f7a816-cf4f-4e6b-b1ce
+quitevi+ 5118  4470   5124 1 24   16.6 5.5  2922464 346248 ?        Sl   20:44   0:51    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {54f7a816-cf4f-4e6b-b1ce
+quitevi+ 5118  4470   5134 0 24   16.6 5.5  2922464 346248 ?        Sl   20:44   0:51    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {54f7a816-cf4f-4e6b-b1ce
+quitevi+ 5118  4470   5137 0 24   16.6 5.5  2922464 346248 ?        Sl   20:44   0:51    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {54f7a816-cf4f-4e6b-b1ce
+quitevi+ 5118  4470   5142 0 24   16.6 5.5  2922464 346248 ?        Sl   20:44   0:51    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {54f7a816-cf4f-4e6b-b1ce
+quitevi+ 5118  4470   5143 0 24   16.6 5.5  2922464 346248 ?        Sl   20:44   0:51    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {54f7a816-cf4f-4e6b-b1ce
+quitevi+ 5118  4470   5145 0 24   16.6 5.5  2922464 346248 ?        Sl   20:44   0:51    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {54f7a816-cf4f-4e6b-b1ce
+quitevi+ 5118  4470   5148 0 24   16.6 5.5  2922464 346248 ?        Sl   20:44   0:51    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {54f7a816-cf4f-4e6b-b1ce
+quitevi+ 5118  4470   5167 0 24   16.6 5.5  2922464 346248 ?        Sl   20:44   0:51    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {54f7a816-cf4f-4e6b-b1ce
+quitevi+ 5118  4470   5171 0 24   16.6 5.5  2922464 346248 ?        Sl   20:44   0:51    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {54f7a816-cf4f-4e6b-b1ce
+quitevi+ 5118  4470   5175 0 24   16.6 5.5  2922464 346248 ?        Sl   20:44   0:51    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {54f7a816-cf4f-4e6b-b1ce
+quitevi+ 5118  4470   5179 0 24   16.6 5.5  2922464 346248 ?        Sl   20:44   0:51    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {54f7a816-cf4f-4e6b-b1ce
+quitevi+ 5118  4470   5180 0 24   16.6 5.5  2922464 346248 ?        Sl   20:44   0:51    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {54f7a816-cf4f-4e6b-b1ce
+quitevi+ 5118  4470   5181 0 24   16.6 5.5  2922464 346248 ?        Sl   20:44   0:51    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {54f7a816-cf4f-4e6b-b1ce
+quitevi+ 5118  4470   5339 1 24   16.6 5.5  2922464 346248 ?        Sl   20:44   0:51    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {54f7a816-cf4f-4e6b-b1ce
+quitevi+ 5118  4470   5340 0 24   16.6 5.5  2922464 346248 ?        Sl   20:44   0:51    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {54f7a816-cf4f-4e6b-b1ce
+quitevi+ 5118  4470   5342 0 24   16.6 5.5  2922464 346248 ?        Sl   20:44   0:51    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {54f7a816-cf4f-4e6b-b1ce
+quitevi+ 5118  4470   5344 0 24   16.6 5.5  2922464 346248 ?        Sl   20:44   0:51    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {54f7a816-cf4f-4e6b-b1ce
+quitevi+ 5118  4470   5348 0 24   16.6 5.5  2922464 346248 ?        Sl   20:44   0:51    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {54f7a816-cf4f-4e6b-b1ce
+quitevi+ 5118  4470   5355 0 24   16.6 5.5  2922464 346248 ?        Sl   20:44   0:51    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {54f7a816-cf4f-4e6b-b1ce
+quitevi+ 5118  4470   5392 0 24   16.6 5.5  2922464 346248 ?        Sl   20:44   0:51    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {54f7a816-cf4f-4e6b-b1ce
+quitevi+ 5118  4470   5759 0 24   16.6 5.5  2922464 346248 ?        Sl   20:44   0:51    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {54f7a816-cf4f-4e6b-b1ce
+quitevi+ 5118  4470   5955 0 24   16.6 5.5  2922464 346248 ?        Sl   20:44   0:51    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {54f7a816-cf4f-4e6b-b1ce
+quitevi+ 5122  4470   5122 0 20   0.2  1.1  2569104 71236 ?        Sl   20:44   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {b619058a-a1c4-461f-9d47º
+quitevi+ 5122  4470   5128 0 20   0.2  1.1  2569104 71236 ?        Sl   20:44   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {b619058a-a1c4-461f-9d47º
+quitevi+ 5122  4470   5131 0 20   0.2  1.1  2569104 71236 ?        Sl   20:44   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {b619058a-a1c4-461f-9d47º
+quitevi+ 5122  4470   5136 0 20   0.2  1.1  2569104 71236 ?        Sl   20:44   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {b619058a-a1c4-461f-9d47º
+quitevi+ 5122  4470   5138 0 20   0.2  1.1  2569104 71236 ?        Sl   20:44   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {b619058a-a1c4-461f-9d47º
+quitevi+ 5122  4470   5139 0 20   0.2  1.1  2569104 71236 ?        Sl   20:44   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {b619058a-a1c4-461f-9d47º
+quitevi+ 5122  4470   5140 0 20   0.2  1.1  2569104 71236 ?        Sl   20:44   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {b619058a-a1c4-461f-9d47º
+quitevi+ 5122  4470   5141 0 20   0.2  1.1  2569104 71236 ?        Sl   20:44   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {b619058a-a1c4-461f-9d47º
+quitevi+ 5122  4470   5146 0 20   0.2  1.1  2569104 71236 ?        Sl   20:44   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {b619058a-a1c4-461f-9d47º
+quitevi+ 5122  4470   5159 0 20   0.2  1.1  2569104 71236 ?        Sl   20:44   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {b619058a-a1c4-461f-9d47º
+quitevi+ 5122  4470   5161 0 20   0.2  1.1  2569104 71236 ?        Sl   20:44   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {b619058a-a1c4-461f-9d47º
+quitevi+ 5122  4470   5165 0 20   0.2  1.1  2569104 71236 ?        Sl   20:44   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {b619058a-a1c4-461f-9d47º
+quitevi+ 5122  4470   5166 0 20   0.2  1.1  2569104 71236 ?        Sl   20:44   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {b619058a-a1c4-461f-9d47º
+quitevi+ 5122  4470   5168 0 20   0.2  1.1  2569104 71236 ?        Sl   20:44   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {b619058a-a1c4-461f-9d47º
+quitevi+ 5122  4470   5169 0 20   0.2  1.1  2569104 71236 ?        Sl   20:44   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {b619058a-a1c4-461f-9d47º
+quitevi+ 5122  4470   5341 0 20   0.2  1.1  2569104 71236 ?        Sl   20:44   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {b619058a-a1c4-461f-9d47º
+quitevi+ 5122  4470   5343 0 20   0.2  1.1  2569104 71236 ?        Sl   20:44   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {b619058a-a1c4-461f-9d47º
+quitevi+ 5122  4470   5345 0 20   0.2  1.1  2569104 71236 ?        Sl   20:44   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {b619058a-a1c4-461f-9d47º
+quitevi+ 5122  4470   5346 0 20   0.2  1.1  2569104 71236 ?        Sl   20:44   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {b619058a-a1c4-461f-9d47º
+quitevi+ 5122  4470   5347 0 20   0.2  1.1  2569104 71236 ?        Sl   20:44   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {b619058a-a1c4-461f-9d47º
+quitevi+ 5306  4470   5306 0 20   0.3  1.1  2569104 71148 ?        Sl   20:45   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {4bed8bbe-00e7-4a8f-9301û
+quitevi+ 5306  4470   5309 0 20   0.3  1.1  2569104 71148 ?        Sl   20:45   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {4bed8bbe-00e7-4a8f-9301û
+quitevi+ 5306  4470   5311 0 20   0.3  1.1  2569104 71148 ?        Sl   20:45   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {4bed8bbe-00e7-4a8f-9301û
+quitevi+ 5306  4470   5313 0 20   0.3  1.1  2569104 71148 ?        Sl   20:45   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {4bed8bbe-00e7-4a8f-9301û
+quitevi+ 5306  4470   5314 0 20   0.3  1.1  2569104 71148 ?        Sl   20:45   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {4bed8bbe-00e7-4a8f-9301û
+quitevi+ 5306  4470   5315 0 20   0.3  1.1  2569104 71148 ?        Sl   20:45   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {4bed8bbe-00e7-4a8f-9301û
+quitevi+ 5306  4470   5316 0 20   0.3  1.1  2569104 71148 ?        Sl   20:45   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {4bed8bbe-00e7-4a8f-9301û
+quitevi+ 5306  4470   5317 0 20   0.3  1.1  2569104 71148 ?        Sl   20:45   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {4bed8bbe-00e7-4a8f-9301û
+quitevi+ 5306  4470   5319 0 20   0.3  1.1  2569104 71148 ?        Sl   20:45   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {4bed8bbe-00e7-4a8f-9301û
+quitevi+ 5306  4470   5320 0 20   0.3  1.1  2569104 71148 ?        Sl   20:45   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {4bed8bbe-00e7-4a8f-9301û
+quitevi+ 5306  4470   5321 0 20   0.3  1.1  2569104 71148 ?        Sl   20:45   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {4bed8bbe-00e7-4a8f-9301û
+quitevi+ 5306  4470   5322 0 20   0.3  1.1  2569104 71148 ?        Sl   20:45   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {4bed8bbe-00e7-4a8f-9301û
+quitevi+ 5306  4470   5323 0 20   0.3  1.1  2569104 71148 ?        Sl   20:45   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {4bed8bbe-00e7-4a8f-9301û
+quitevi+ 5306  4470   5324 0 20   0.3  1.1  2569104 71148 ?        Sl   20:45   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {4bed8bbe-00e7-4a8f-9301û
+quitevi+ 5306  4470   5325 0 20   0.3  1.1  2569104 71148 ?        Sl   20:45   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {4bed8bbe-00e7-4a8f-9301û
+quitevi+ 5306  4470   5350 0 20   0.3  1.1  2569104 71148 ?        Sl   20:45   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {4bed8bbe-00e7-4a8f-9301û
+quitevi+ 5306  4470   5351 0 20   0.3  1.1  2569104 71148 ?        Sl   20:45   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {4bed8bbe-00e7-4a8f-9301û
+quitevi+ 5306  4470   5352 0 20   0.3  1.1  2569104 71148 ?        Sl   20:45   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {4bed8bbe-00e7-4a8f-9301û
+quitevi+ 5306  4470   5353 0 20   0.3  1.1  2569104 71148 ?        Sl   20:45   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {4bed8bbe-00e7-4a8f-9301û
+quitevi+ 5306  4470   5354 0 20   0.3  1.1  2569104 71148 ?        Sl   20:45   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:43863 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {4bed8bbe-00e7-4a8f-9301û
+quitevi+ 5371  4470   5371 0 20   0.2  1.1  2569104 71020 ?        Sl   20:45   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44052 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {2bdf596f-2afe-4105-b881
+quitevi+ 5371  4470   5375 0 20   0.2  1.1  2569104 71020 ?        Sl   20:45   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44052 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {2bdf596f-2afe-4105-b881
+quitevi+ 5371  4470   5378 0 20   0.2  1.1  2569104 71020 ?        Sl   20:45   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44052 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {2bdf596f-2afe-4105-b881
+quitevi+ 5371  4470   5379 0 20   0.2  1.1  2569104 71020 ?        Sl   20:45   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44052 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {2bdf596f-2afe-4105-b881
+quitevi+ 5371  4470   5380 0 20   0.2  1.1  2569104 71020 ?        Sl   20:45   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44052 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {2bdf596f-2afe-4105-b881
+quitevi+ 5371  4470   5381 0 20   0.2  1.1  2569104 71020 ?        Sl   20:45   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44052 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {2bdf596f-2afe-4105-b881
+quitevi+ 5371  4470   5382 0 20   0.2  1.1  2569104 71020 ?        Sl   20:45   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44052 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {2bdf596f-2afe-4105-b881
+quitevi+ 5371  4470   5383 0 20   0.2  1.1  2569104 71020 ?        Sl   20:45   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44052 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {2bdf596f-2afe-4105-b881
+quitevi+ 5371  4470   5385 0 20   0.2  1.1  2569104 71020 ?        Sl   20:45   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44052 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {2bdf596f-2afe-4105-b881
+quitevi+ 5371  4470   5386 0 20   0.2  1.1  2569104 71020 ?        Sl   20:45   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44052 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {2bdf596f-2afe-4105-b881
+quitevi+ 5371  4470   5387 0 20   0.2  1.1  2569104 71020 ?        Sl   20:45   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44052 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {2bdf596f-2afe-4105-b881
+quitevi+ 5371  4470   5388 0 20   0.2  1.1  2569104 71020 ?        Sl   20:45   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44052 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {2bdf596f-2afe-4105-b881
+quitevi+ 5371  4470   5389 0 20   0.2  1.1  2569104 71020 ?        Sl   20:45   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44052 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {2bdf596f-2afe-4105-b881
+quitevi+ 5371  4470   5390 0 20   0.2  1.1  2569104 71020 ?        Sl   20:45   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44052 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {2bdf596f-2afe-4105-b881
+quitevi+ 5371  4470   5391 0 20   0.2  1.1  2569104 71020 ?        Sl   20:45   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44052 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {2bdf596f-2afe-4105-b881
+quitevi+ 5371  4470   5393 0 20   0.2  1.1  2569104 71020 ?        Sl   20:45   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44052 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {2bdf596f-2afe-4105-b881
+quitevi+ 5371  4470   5394 0 20   0.2  1.1  2569104 71020 ?        Sl   20:45   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44052 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {2bdf596f-2afe-4105-b881
+quitevi+ 5371  4470   5395 0 20   0.2  1.1  2569104 71020 ?        Sl   20:45   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44052 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {2bdf596f-2afe-4105-b881
+quitevi+ 5371  4470   5396 0 20   0.2  1.1  2569104 71020 ?        Sl   20:45   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44052 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {2bdf596f-2afe-4105-b881
+quitevi+ 5371  4470   5397 0 20   0.2  1.1  2569104 71020 ?        Sl   20:45   0:00    /snap/firefox/7766/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44052 -prefMapHandle 1:277289 -jsInitHandle 2:223968 -parentBuildID 20260204004611 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {2bdf596f-2afe-4105-b881
+root     5402  2      5402 0 1    0.0  0.0  0      0     ?        I<   20:45   0:00    [kworker/2:2H]
+root     5413  2      5413 0 1    0.0  0.0  0      0     ?        I<   20:45   0:00    [kworker/0:2H-kblockd]
+quitevi+ 5487  3439   5487 0 6    0.0  0.5  568780 32324 ?        Sl   20:45   0:00    /usr/bin/update-notifier
+quitevi+ 5487  3439   5491 0 6    0.0  0.5  568780 32324 ?        Sl   20:45   0:00    /usr/bin/update-notifier
+quitevi+ 5487  3439   5492 0 6    0.0  0.5  568780 32324 ?        Sl   20:45   0:00    /usr/bin/update-notifier
+quitevi+ 5487  3439   5494 0 6    0.0  0.5  568780 32324 ?        Sl   20:45   0:00    /usr/bin/update-notifier
+quitevi+ 5487  3439   5495 0 6    0.0  0.5  568780 32324 ?        Sl   20:45   0:00    /usr/bin/update-notifier
+quitevi+ 5487  3439   5511 0 6    0.0  0.5  568780 32324 ?        Sl   20:45   0:00    /usr/bin/update-notifier
+quitevi+ 5533  3220   5533 2 5    3.9  3.1  676128 197656 ?        SNl  20:45   0:10    /usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map
+quitevi+ 5533  3220   5534 0 5    3.9  3.1  676128 197656 ?        SNl  20:45   0:10    /usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map
+quitevi+ 5533  3220   5535 0 5    3.9  3.1  676128 197656 ?        SNl  20:45   0:10    /usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map
+quitevi+ 5533  3220   5537 0 5    3.9  3.1  676128 197656 ?        SNl  20:45   0:10    /usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map
+quitevi+ 5533  3220   5538 0 5    3.9  3.1  676128 197656 ?        SNl  20:45   0:10    /usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map
+quitevi+ 5777  3220   5777 0 8    0.7  1.0  707532 65912 ?        Ssl  20:47   0:01    /usr/libexec/gnome-terminal-server
+quitevi+ 5777  3220   5778 0 8    0.7  1.0  707532 65912 ?        Ssl  20:47   0:01    /usr/libexec/gnome-terminal-server
+quitevi+ 5777  3220   5779 0 8    0.7  1.0  707532 65912 ?        Ssl  20:47   0:01    /usr/libexec/gnome-terminal-server
+quitevi+ 5777  3220   5781 0 8    0.7  1.0  707532 65912 ?        Ssl  20:47   0:01    /usr/libexec/gnome-terminal-server
+quitevi+ 5777  3220   5782 0 8    0.7  1.0  707532 65912 ?        Ssl  20:47   0:01    /usr/libexec/gnome-terminal-server
+quitevi+ 5777  3220   5784 0 8    0.7  1.0  707532 65912 ?        Ssl  20:47   0:01    /usr/libexec/gnome-terminal-server
+quitevi+ 5777  3220   5815 0 8    0.7  1.0  707532 65912 ?        Ssl  20:47   0:01    /usr/libexec/gnome-terminal-server
+quitevi+ 5777  3220   5957 0 8    0.7  1.0  707532 65912 ?        Ssl  20:47   0:01    /usr/libexec/gnome-terminal-server
+quitevi+ 5785  5777   5785 0 1    0.0  0.0  11272  5548  pts/0    Ss+  20:47   0:00    bash
+quitevi+ 5823  5777   5823 0 1    0.0  0.0  11272  5552  pts/1    Ss+  20:47   0:00    bash
+root     5941  2      5941 0 1    0.0  0.0  0      0     ?        I    20:49   0:00    [kworker/2:2]
+root     5943  2      5943 0 1    0.0  0.0  0      0     ?        I    20:49   0:00    [kworker/4:0]
+root     5954  2      5954 0 1    0.0  0.0  0      0     ?        I    20:50   0:00    [kworker/0:0]
+quitevi+ 5956  5777   5956 0 1    0.3  0.0  11272  5548  pts/2    Ss   20:50   0:00    bash
+quitevi+ 5963  5956   5963 0 1    0.0  0.0  6188   1540  pts/2    S+   20:50   0:00    ./main
