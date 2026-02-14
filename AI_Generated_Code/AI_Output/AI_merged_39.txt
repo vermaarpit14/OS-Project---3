@@ -1,0 +1,41 @@
+UID        PID   PPID  LWP   C  NLWP %CPU %MEM VSZ      RSS    TTY    STAT  START   TIME    COMMAND
+root       1     0     1     0  1    0.0  0.1  21728    12640  ?      Ss    08:59   0:00    /sbin/init
+root       2     1     2     0  2    0.0  0.0  3120     2048   ?      Sl    08:59   0:00    /init
+root       2     1     9     0  2    0.0  0.0  3120     2048   ?      Sl    08:59   0:00    /init
+root       7     2     7     0  2    0.0  0.0  3120     1792   ?      Sl    09:00   0:00    plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root       7     2     8     0  2    0.0  0.0  3120     1792   ?      Sl    09:00   0:00    plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root       43    1     43    0  1    0.0  0.1  50352    15744  ?      S<s   09:00   0:00    /usr/lib/systemd/systemd-journald
+root       97    1     97    0  1    0.0  0.0  25324    6400   ?      Ss    09:00   0:00    /usr/lib/systemd/systemd-udevd
+systemd+   105   1     105   0  1    0.0  0.1  21456    12032  ?      Ss    09:00   0:00    /usr/lib/systemd/systemd-resolved
+systemd+   106   1     106   0  2    0.0  0.0  91024    7552   ?      Ssl   09:00   0:00    /usr/lib/systemd/systemd-timesyncd
+systemd+   106   1     159   0  2    0.0  0.0  91024    7552   ?      Ssl   09:00   0:00    /usr/lib/systemd/systemd-timesyncd
+root       177   1     177   0  1    0.0  0.0  4236     2560   ?      Ss    09:00   0:00    /usr/sbin/cron -f -P
+message+   178   1     178   0  1    0.0  0.0  9576     4992   ?      Ss    09:00   0:00    @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root       233   1     233   0  1    0.0  0.1  17960    8320   ?      Ss    09:00   0:00    /usr/lib/systemd/systemd-logind
+root       243   1     243   0  8    0.0  0.1  1756096  11776  ?      Ssl   09:00   0:00    /usr/libexec/wsl-pro-service -vv
+root       243   1     291   0  8    0.0  0.1  1756096  11776  ?      Ssl   09:00   0:00    /usr/libexec/wsl-pro-service -vv
+root       243   1     292   0  8    0.0  0.1  1756096  11776  ?      Ssl   09:00   0:00    /usr/libexec/wsl-pro-service -vv
+root       243   1     293   0  8    0.0  0.1  1756096  11776  ?      Ssl   09:00   0:00    /usr/libexec/wsl-pro-service -vv
+root       243   1     294   0  8    0.0  0.1  1756096  11776  ?      Ssl   09:00   0:00    /usr/libexec/wsl-pro-service -vv
+root       243   1     295   0  8    0.0  0.1  1756096  11776  ?      Ssl   09:00   0:00    /usr/libexec/wsl-pro-service -vv
+root       243   1     310   0  8    0.0  0.1  1756096  11776  ?      Ssl   09:00   0:00    /usr/libexec/wsl-pro-service -vv
+root       243   1     316   0  8    0.0  0.1  1756096  11776  ?      Ssl   09:00   0:00    /usr/libexec/wsl-pro-service -vv
+syslog     257   1     257   0  4    0.0  0.0  222508   5504   ?      Ssl   09:00   0:00    /usr/sbin/rsyslogd -n -iNONE
+syslog     257   1     288   0  4    0.0  0.0  222508   5504   ?      Ssl   09:00   0:00    /usr/sbin/rsyslogd -n -iNONE
+syslog     257   1     289   0  4    0.0  0.0  222508   5504   ?      Ssl   09:00   0:00    /usr/sbin/rsyslogd -n -iNONE
+syslog     257   1     290   0  4    0.0  0.0  222508   5504   ?      Ssl   09:00   0:00    /usr/sbin/rsyslogd -n -iNONE
+root       264   1     264   0  1    0.0  0.0  3160     1920   hvc0   Ss+   09:00   0:00    /sbin/agetty -o -p -- \u --noclear --keep-baud - 115200,38400,9600 vt220
+root       269   1     269   0  1    0.0  0.0  3116     1792   tty1   Ss+   09:00   0:00    /sbin/agetty -o -p -- \u --noclear - linux
+root       326   1     326   0  2    0.0  0.2  107028   22656  ?      Ssl   09:00   0:00    /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root       326   1     329   0  2    0.0  0.2  107028   22656  ?      Ssl   09:00   0:00    /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root       362   2     362   0  1    0.0  0.0  3136     900    ?      Ss    09:00   0:00    /init
+root       363   362   363   0  1    0.0  0.0  3136     1164   ?      S     09:00   0:00    /init
+himanshu   364   363   364   0  1    0.0  0.0  6072     5248   pts/0  Ss+   09:00   0:00    -bash
+root       365   2     365   0  1    0.0  0.0  6688     4224   pts/1  Ss    09:00   0:00    /bin/login -f
+himanshu   409   1     409   0  1    0.0  0.1  20308    11264  ?      Ss    09:00   0:00    /usr/lib/systemd/systemd --user
+himanshu   410   409   410   0  1    0.0  0.0  21152    3516   ?      S     09:00   0:00    (sd-pam)
+himanshu   436   365   436   0  1    0.0  0.0  6072     4992   pts/1  S+    09:00   0:00    -bash
+root       760   2     760   0  1    0.0  0.0  3136     908    ?      Ss    09:14   0:00    /init
+root       761   760   761   0  1    0.0  0.0  3136     1172   ?      S     09:14   0:00    /init
+himanshu   762   761   762   0  1    0.0  0.0  6072     5248   pts/2  Ss    09:14   0:00    -bash
+himanshu   978   762   978   0  1    0.0  0.0  6180     1408   pts/2  S+    09:22   0:00    ./main

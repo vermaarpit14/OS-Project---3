@@ -1,0 +1,65 @@
+PROCview — QUICK NOTES
+
+  ----------------------------------
+  PROMPT 1
+  ----------------------------------
+
+GIVE ME A C CODE IN WHICH system() REDIRECTS PS DATA:
+
+The program starts by executing shell commands to gather the system's current process and thread states. These are saved into x1.txt and x2.txt for processing.
+
+
+system("ps aux --no-headers > x1.txt");
+system("ps -eLf --no-headers > x2.txt");
+
+
+  ----------------------------------
+  PROMPT 2
+  ----------------------------------
+GIVE ME A C CODE IN WHICH A STRUCT ARRAY STORES PS METRICS:
+We use a structure to cache the CPU and Memory metrics from ps aux. This allows the program to look up performance data for every thread found in the second file.
+
+
+typedef struct {
+    int pid;
+    char cpu[10], mem[10], vsz[16], rss[16], tty[16], stat[10], start[16], time[16], command[256];
+} ProcessInfo;
+ProcessInfo aux_data[10000];
+
+  ----------------------------------
+  PROMPT 3
+  ----------------------------------
+GIVE ME A C CODE IN WHICH fscanf AND fprintf MERGE DATA:
+The program reads both files using fscanf. It matches the PID from both sources and writes a formatted, combined row into merged.txt to produce the unified output.
+
+
+while (fscanf(f2, "%s %d %s %s %s %s %s %s %s %[^\n]", uid, &p_elf, ppid, lwp, c, nlwp, stime, tty_e, time_e, cmd_e) == 10) {
+    for (int i = 0; i < count; i++) {
+        if (aux_data[i].pid == p_elf) {
+            fprintf(fout, "%-8s %-5d %-5s %-5s %-2s %-4s %-4s %-4s %-7s %-6s %-6s %-4s %-6s %-6s %s\n",
+                    uid, p_elf, ppid, lwp, c, nlwp, aux_data[i].cpu, aux_data[i].mem, 
+                    aux_data[i].vsz, aux_data[i].rss, aux_data[i].tty, aux_data[i].stat, 
+                    aux_data[i].start, aux_data[i].time, aux_data[i].command);
+            break;
+        }
+    }
+}
+
+  ----------------------------------
+  PROMPT 4
+  ----------------------------------
+GIVE ME A C CODE IN WHICH THE OUTPUT BEHAVES AS A USER COMMAND:
+By compiling the code as my_ps and placing it in a system PATH directory, it becomes a globally executable command that displays the merged file directly in the terminal using cat.
+
+
+gcc my_ps.c -o my_ps
+sudo mv my_ps /usr/local/bin/
+# Now run as a command:
+my_ps
+
+
+
+
+"I need to create a C program called 'my_ps' that merges the information of commands ps aux and ps -eLf. It should extract information using fscanf() and write the combined results into AI_merged.txt. The parent process must display the file in the terminal. The final executable should be saved as my_ps so it can behave like a system command. Prerequisites: Basic file handling use of open(), close(), fscanf(), fprintf(); use of system().Hint: You may use the system call system() to execute commands “ps aux >> x1.txt” and “ps –eLf >> x2.txt”. Open both the text files extract information using fscanf() and write the combined information as desired in another output text file merged.txt. Display the file merged.txt in terminal. Compile and save the exe file as my_ps which can behave like a command."
+
+This is the prompt I gave to AI while working on this project, to generate a reference code.
